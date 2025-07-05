@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="14" passed="14" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-05T17:45:35 IST" name="CrossBrowserSuite" finished-at="2025-07-05T17:45:57 IST" duration-ms="22036">
+    <groups>
+    </groups>
+    <test started-at="2025-07-05T17:45:35 IST" name="Chrome_Tests" finished-at="2025-07-05T17:45:42 IST" duration-ms="6817">
+      <class name="com.krollresolver.automation.tests.Test2_ListGroupTest">
+        <test-method is-config="true" signature="initialize(java.lang.String)[pri:0, instance:com.krollresolver.automation.tests.Test2_ListGroupTest@6e57e95e]" started-at="2025-07-05T17:45:35 IST" name="initialize" finished-at="2025-07-05T17:45:37 IST" duration-ms="2144" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="testListGroupInTest2()[pri:0, instance:com.krollresolver.automation.tests.Test2_ListGroupTest@6e57e95e]" started-at="2025-07-05T17:45:37 IST" name="testListGroupInTest2" finished-at="2025-07-05T17:45:37 IST" duration-ms="257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testListGroupInTest2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.krollresolver.automation.tests.Test2_ListGroupTest@6e57e95e]" started-at="2025-07-05T17:45:38 IST" name="tearDown" finished-at="2025-07-05T17:45:38 IST" duration-ms="206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.krollresolver.automation.tests.Test2_ListGroupTest -->
+      <class name="com.krollresolver.automation.tests.Test1_LoginTest">
+        <test-method is-config="true" signature="initialize(java.lang.String)[pri:0, instance:com.krollresolver.automation.tests.Test1_LoginTest@9f46d94]" started-at="2025-07-05T17:45:35 IST" name="initialize" finished-at="2025-07-05T17:45:37 IST" duration-ms="1737" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method is-config="true" signature="setUpPage()[pri:0, instance:com.krollresolver.automation.tests.Test1_LoginTest@9f46d94]" started-at="2025-07-05T17:45:37 IST" name="setUpPage" finished-at="2025-07-05T17:45:37 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpPage -->
+        <test-method signature="verifyLoginFieldsArePresent()[pri:1, instance:com.krollresolver.automation.tests.Test1_LoginTest@9f46d94]" started-at="2025-07-05T17:45:37 IST" name="verifyLoginFieldsArePresent" finished-at="2025-07-05T17:45:38 IST" duration-ms="1030" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginFieldsArePresent -->
+        <test-method is-config="true" signature="setUpPage()[pri:0, instance:com.krollresolver.automation.tests.Test1_LoginTest@9f46d94]" started-at="2025-07-05T17:45:38 IST" name="setUpPage" finished-at="2025-07-05T17:45:38 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpPage -->
+        <test-method signature="verifyInvalidEmailFormatValidation()[pri:2, instance:com.krollresolver.automation.tests.Test1_LoginTest@9f46d94]" started-at="2025-07-05T17:45:38 IST" name="verifyInvalidEmailFormatValidation" finished-at="2025-07-05T17:45:38 IST" duration-ms="234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidEmailFormatValidation -->
+        <test-method is-config="true" signature="setUpPage()[pri:0, instance:com.krollresolver.automation.tests.Test1_LoginTest@9f46d94]" started-at="2025-07-05T17:45:39 IST" name="setUpPage" finished-at="2025-07-05T17:45:39 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpPage -->
+        <test-method signature="verifyRequiredPasswordFieldValidationMessage()[pri:3, instance:com.krollresolver.automation.tests.Test1_LoginTest@9f46d94]" started-at="2025-07-05T17:45:39 IST" name="verifyRequiredPasswordFieldValidationMessage" finished-at="2025-07-05T17:45:39 IST" duration-ms="319" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRequiredPasswordFieldValidationMessage -->
+        <test-method is-config="true" signature="setUpPage()[pri:0, instance:com.krollresolver.automation.tests.Test1_LoginTest@9f46d94]" started-at="2025-07-05T17:45:39 IST" name="setUpPage" finished-at="2025-07-05T17:45:39 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpPage -->
+        <test-method signature="verifyRequiredEmailFieldValidationMessage()[pri:4, instance:com.krollresolver.automation.tests.Test1_LoginTest@9f46d94]" started-at="2025-07-05T17:45:39 IST" name="verifyRequiredEmailFieldValidationMessage" finished-at="2025-07-05T17:45:39 IST" duration-ms="268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRequiredEmailFieldValidationMessage -->
+        <test-method is-config="true" signature="setUpPage()[pri:0, instance:com.krollresolver.automation.tests.Test1_LoginTest@9f46d94]" started-at="2025-07-05T17:45:40 IST" name="setUpPage" finished-at="2025-07-05T17:45:40 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpPage -->
+        <test-method signature="verifyPasswordFieldIsMasked()[pri:5, instance:com.krollresolver.automation.tests.Test1_LoginTest@9f46d94]" started-at="2025-07-05T17:45:40 IST" name="verifyPasswordFieldIsMasked" finished-at="2025-07-05T17:45:40 IST" duration-ms="65" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPasswordFieldIsMasked -->
+        <test-method is-config="true" signature="setUpPage()[pri:0, instance:com.krollresolver.automation.tests.Test1_LoginTest@9f46d94]" started-at="2025-07-05T17:45:40 IST" name="setUpPage" finished-at="2025-07-05T17:45:40 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpPage -->
+        <test-method signature="verifyInputFieldPlaceholders()[pri:6, instance:com.krollresolver.automation.tests.Test1_LoginTest@9f46d94]" started-at="2025-07-05T17:45:40 IST" name="verifyInputFieldPlaceholders" finished-at="2025-07-05T17:45:40 IST" duration-ms="118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInputFieldPlaceholders -->
+        <test-method is-config="true" signature="setUpPage()[pri:0, instance:com.krollresolver.automation.tests.Test1_LoginTest@9f46d94]" started-at="2025-07-05T17:45:40 IST" name="setUpPage" finished-at="2025-07-05T17:45:40 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpPage -->
+        <test-method signature="verifyFieldValidationMessages(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:7, instance:com.krollresolver.automation.tests.Test1_LoginTest@9f46d94]" started-at="2025-07-05T17:45:40 IST" name="verifyFieldValidationMessages" data-provider="validationScenarios" finished-at="2025-07-05T17:45:40 IST" duration-ms="258" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[email]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Please fill out this field.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFieldValidationMessages -->
+        <test-method is-config="true" signature="setUpPage()[pri:0, instance:com.krollresolver.automation.tests.Test1_LoginTest@9f46d94]" started-at="2025-07-05T17:45:40 IST" name="setUpPage" finished-at="2025-07-05T17:45:40 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpPage -->
+        <test-method signature="verifyFieldValidationMessages(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:7, instance:com.krollresolver.automation.tests.Test1_LoginTest@9f46d94]" started-at="2025-07-05T17:45:40 IST" name="verifyFieldValidationMessages" data-provider="validationScenarios" finished-at="2025-07-05T17:45:41 IST" duration-ms="348" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[invalid-email]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[email]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Please include an '@']]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFieldValidationMessages -->
+        <test-method signature="verifyFieldValidationMessages(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:7, instance:com.krollresolver.automation.tests.Test1_LoginTest@9f46d94]" started-at="2025-07-05T17:45:41 IST" name="verifyFieldValidationMessages" data-provider="validationScenarios" finished-at="2025-07-05T17:45:41 IST" duration-ms="439" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test@testing.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Please fill out this field.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFieldValidationMessages -->
+        <test-method is-config="true" signature="setUpPage()[pri:0, instance:com.krollresolver.automation.tests.Test1_LoginTest@9f46d94]" started-at="2025-07-05T17:45:41 IST" name="setUpPage" finished-at="2025-07-05T17:45:41 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.krollresolver.automation.tests.Test1_LoginTest@9f46d94]" started-at="2025-07-05T17:45:42 IST" name="tearDown" finished-at="2025-07-05T17:45:42 IST" duration-ms="183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.krollresolver.automation.tests.Test1_LoginTest -->
+    </test> <!-- Chrome_Tests -->
+    <test started-at="2025-07-05T17:45:42 IST" name="Edge_Tests" finished-at="2025-07-05T17:45:57 IST" duration-ms="14885">
+      <class name="com.krollresolver.automation.tests.Test5_DelayedButtonTest">
+        <test-method is-config="true" signature="initialize(java.lang.String)[pri:0, instance:com.krollresolver.automation.tests.Test5_DelayedButtonTest@7e1a1da6]" started-at="2025-07-05T17:45:45 IST" name="initialize" finished-at="2025-07-05T17:45:47 IST" duration-ms="2574" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[microsoftedge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="verifyDelayedButtonBehavior()[pri:0, instance:com.krollresolver.automation.tests.Test5_DelayedButtonTest@7e1a1da6]" started-at="2025-07-05T17:45:47 IST" name="verifyDelayedButtonBehavior" finished-at="2025-07-05T17:45:57 IST" duration-ms="9641" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDelayedButtonBehavior -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.krollresolver.automation.tests.Test5_DelayedButtonTest@7e1a1da6]" started-at="2025-07-05T17:45:57 IST" name="tearDown" finished-at="2025-07-05T17:45:57 IST" duration-ms="185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.krollresolver.automation.tests.Test5_DelayedButtonTest -->
+      <class name="com.krollresolver.automation.tests.Test3_DropdownTest">
+        <test-method is-config="true" signature="initialize(java.lang.String)[pri:0, instance:com.krollresolver.automation.tests.Test3_DropdownTest@5b800468]" started-at="2025-07-05T17:45:42 IST" name="initialize" finished-at="2025-07-05T17:45:44 IST" duration-ms="1536" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[microsoftedge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="testDropdownSelection()[pri:0, instance:com.krollresolver.automation.tests.Test3_DropdownTest@5b800468]" started-at="2025-07-05T17:45:44 IST" name="testDropdownSelection" finished-at="2025-07-05T17:45:44 IST" duration-ms="462" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDropdownSelection -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.krollresolver.automation.tests.Test3_DropdownTest@5b800468]" started-at="2025-07-05T17:45:44 IST" name="tearDown" finished-at="2025-07-05T17:45:45 IST" duration-ms="238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.krollresolver.automation.tests.Test3_DropdownTest -->
+      <class name="com.krollresolver.automation.tests.Test4_ButtonStateTest">
+        <test-method is-config="true" signature="initialize(java.lang.String)[pri:0, instance:com.krollresolver.automation.tests.Test4_ButtonStateTest@2e185cd7]" started-at="2025-07-05T17:45:42 IST" name="initialize" finished-at="2025-07-05T17:45:44 IST" duration-ms="1731" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[microsoftedge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="verifyButtonStatesOnTest4Page()[pri:0, instance:com.krollresolver.automation.tests.Test4_ButtonStateTest@2e185cd7]" started-at="2025-07-05T17:45:44 IST" name="verifyButtonStatesOnTest4Page" finished-at="2025-07-05T17:45:44 IST" duration-ms="160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyButtonStatesOnTest4Page -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.krollresolver.automation.tests.Test4_ButtonStateTest@2e185cd7]" started-at="2025-07-05T17:45:44 IST" name="tearDown" finished-at="2025-07-05T17:45:45 IST" duration-ms="223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.krollresolver.automation.tests.Test4_ButtonStateTest -->
+      <class name="com.krollresolver.automation.tests.Test6_GridTest">
+        <test-method is-config="true" signature="initialize(java.lang.String)[pri:0, instance:com.krollresolver.automation.tests.Test6_GridTest@5f7f2382]" started-at="2025-07-05T17:45:45 IST" name="initialize" finished-at="2025-07-05T17:45:47 IST" duration-ms="2276" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[microsoftedge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="verifyGridDataAndCoordinates()[pri:0, instance:com.krollresolver.automation.tests.Test6_GridTest@5f7f2382]" started-at="2025-07-05T17:45:47 IST" name="verifyGridDataAndCoordinates" finished-at="2025-07-05T17:45:47 IST" duration-ms="408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGridDataAndCoordinates -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.krollresolver.automation.tests.Test6_GridTest@5f7f2382]" started-at="2025-07-05T17:45:48 IST" name="tearDown" finished-at="2025-07-05T17:45:48 IST" duration-ms="165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.krollresolver.automation.tests.Test6_GridTest -->
+    </test> <!-- Edge_Tests -->
+  </suite> <!-- CrossBrowserSuite -->
+</testng-results>

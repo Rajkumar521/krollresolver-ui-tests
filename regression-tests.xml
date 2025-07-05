@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="CrossBrowserSuite" parallel="classes"
+	thread-count="3" verbose="2">
+
+	<!-- ✅ Global parameters -->
+	<parameter name="browser" value="chrome" />
+
+	<listeners>
+		<!-- ✅ Updated to use MyTransformer for retry logic -->
+		<listener
+			class-name="com.krollresolver.automation.listeners.MyTransformer" />
+		<listener
+			class-name="com.krollresolver.automation.listeners.TestListeners" />
+	</listeners>
+
+	<test thread-count="5" name="Test">
+		<classes>
+			<class
+				name="com.krollresolver.automation.tests.Test1_LoginTest" />
+			<class
+				name="com.krollresolver.automation.tests.Test2_ListGroupTest" />
+			<class
+				name="com.krollresolver.automation.tests.Test3_DropdownTest" />
+			<class
+				name="com.krollresolver.automation.tests.Test4_ButtonStateTest" />
+			<class
+				name="com.krollresolver.automation.tests.Test5_DelayedButtonTest" />
+			<class name="com.krollresolver.automation.tests.Test6_GridTest" />
+		</classes>
+	</test>
+</suite>

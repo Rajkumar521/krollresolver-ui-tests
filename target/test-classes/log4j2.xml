@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+
+    <Properties>
+        <Property name="logDir">logs</Property>
+        <Property name="htmlLog">application.html</Property>
+    </Properties>
+
+    <Appenders>
+
+        <!-- Console Appender with minimal pattern (StepLogger handles class:line) -->
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} [%t] %-5level %msg%n" />
+        </Console>
+
+        <!-- HTML File Appender with valid layout -->
+        <File name="HtmlLog" fileName="${logDir}/${htmlLog}">
+            <HtmlLayout title="Application log" locationInfo="true" />
+        </File>
+
+    </Appenders>
+
+    <Loggers>
+
+        <!-- Main application logging package -->
+        <Logger name="com.example.SwagLabs" level="debug" additivity="false">
+            <AppenderRef ref="HtmlLog" />
+            <AppenderRef ref="Console" />
+        </Logger>
+
+        <!-- Root Logger fallback -->
+        <Root level="info">
+            <AppenderRef ref="HtmlLog" />
+            <AppenderRef ref="Console" />
+        </Root>
+
+    </Loggers>
+
+</Configuration>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extentreports>
+  <configuration>
+    <theme>dark</theme> <!-- Options: standard, dark -->
+    <encoding>UTF-8</encoding>
+    <protocol>https</protocol>
+    <documentTitle>Swag Labs Automation Report</documentTitle>
+    <reportName>Regression Suite Results</reportName>
+    <testViewChartLocation>bottom</testViewChartLocation>
+    <timeStampFormat>EEEE, MMMM dd, yyyy, hh:mm a '('zzz')'</timeStampFormat>
+  </configuration>
+</extentreports>

@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="23.201" tests="14" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\rajku\.cache\selenium\chromedriver\win64\138.0.7204.92\chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\Automation\ui-tests\target\test-classes;D:\Automation\ui-tests\target\classes;C:\Users\rajku\.m2\repository\org\seleniumhq\selenium\selenium-java\4.33.0\selenium-java-4.33.0.jar;C:\Users\rajku\.m2\repository\org\seleniumhq\selenium\selenium-api\4.33.0\selenium-api-4.33.0.jar;C:\Users\rajku\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\rajku\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.33.0\selenium-chrome-driver-4.33.0.jar;C:\Users\rajku\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\rajku\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.33.0\selenium-chromium-driver-4.33.0.jar;C:\Users\rajku\.m2\repository\org\seleniumhq\selenium\selenium-json\4.33.0\selenium-json-4.33.0.jar;C:\Users\rajku\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.33.0\selenium-manager-4.33.0.jar;C:\Users\rajku\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v135\4.33.0\selenium-devtools-v135-4.33.0.jar;C:\Users\rajku\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v136\4.33.0\selenium-devtools-v136-4.33.0.jar;C:\Users\rajku\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v137\4.33.0\selenium-devtools-v137-4.33.0.jar;C:\Users\rajku\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.33.0\selenium-edge-driver-4.33.0.jar;C:\Users\rajku\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.33.0\selenium-firefox-driver-4.33.0.jar;C:\Users\rajku\.m2\repository\org\seleniumhq\selenium\selenium-http\4.33.0\selenium-http-4.33.0.jar;C:\Users\rajku\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.33.0\selenium-ie-driver-4.33.0.jar;C:\Users\rajku\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.33.0\selenium-remote-driver-4.33.0.jar;C:\Users\rajku\.m2\repository\com\google\guava\guava\33.4.8-jre\guava-33.4.8-jre.jar;C:\Users\rajku\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\rajku\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\rajku\.m2\repository\com\google\errorprone\error_prone_annotations\2.36.0\error_prone_annotations-2.36.0.jar;C:\Users\rajku\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\rajku\.m2\repository\io\opentelemetry\opentelemetry-api\1.50.0\opentelemetry-api-1.50.0.jar;C:\Users\rajku\.m2\repository\io\opentelemetry\opentelemetry-context\1.50.0\opentelemetry-context-1.50.0.jar;C:\Users\rajku\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.50.0\opentelemetry-exporter-logging-1.50.0.jar;C:\Users\rajku\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.50.0\opentelemetry-sdk-common-1.50.0.jar;C:\Users\rajku\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.50.0\opentelemetry-sdk-extension-autoconfigure-spi-1.50.0.jar;C:\Users\rajku\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.50.0\opentelemetry-sdk-extension-autoconfigure-1.50.0.jar;C:\Users\rajku\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.50.0\opentelemetry-sdk-trace-1.50.0.jar;C:\Users\rajku\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.50.0\opentelemetry-sdk-1.50.0.jar;C:\Users\rajku\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.50.0\opentelemetry-sdk-metrics-1.50.0.jar;C:\Users\rajku\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.50.0\opentelemetry-sdk-logs-1.50.0.jar;C:\Users\rajku\.m2\repository\net\bytebuddy\byte-buddy\1.17.5\byte-buddy-1.17.5.jar;C:\Users\rajku\.m2\repository\org\seleniumhq\selenium\selenium-os\4.33.0\selenium-os-4.33.0.jar;C:\Users\rajku\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\rajku\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.33.0\selenium-safari-driver-4.33.0.jar;C:\Users\rajku\.m2\repository\org\seleniumhq\selenium\selenium-support\4.33.0\selenium-support-4.33.0.jar;C:\Users\rajku\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\rajku\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\rajku\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\rajku\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\rajku\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\rajku\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\rajku\.m2\repository\io\github\bonigarcia\webdrivermanager\6.1.0\webdrivermanager-6.1.0.jar;C:\Users\rajku\.m2\repository\org\slf4j\slf4j-api\2.0.17\slf4j-api-2.0.17.jar;C:\Users\rajku\.m2\repository\com\github\docker-java\docker-java\3.5.0\docker-java-3.5.0.jar;C:\Users\rajku\.m2\repository\com\github\docker-java\docker-java-core\3.5.0\docker-java-core-3.5.0.jar;C:\Users\rajku\.m2\repository\com\github\docker-java\docker-java-api\3.5.0\docker-java-api-3.5.0.jar;C:\Users\rajku\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.18.3\jackson-annotations-2.18.3.jar;C:\Users\rajku\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.18.3\jackson-databind-2.18.3.jar;C:\Users\rajku\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.18.3\jackson-core-2.18.3.jar;C:\Users\rajku\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\rajku\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.5.0\docker-java-transport-httpclient5-3.5.0.jar;C:\Users\rajku\.m2\repository\com\github\docker-java\docker-java-transport\3.5.0\docker-java-transport-3.5.0.jar;C:\Users\rajku\.m2\repository\net\java\dev\jna\jna\5.17.0\jna-5.17.0.jar;C:\Users\rajku\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\rajku\.m2\repository\org\apache\commons\commons-lang3\3.17.0\commons-lang3-3.17.0.jar;C:\Users\rajku\.m2\repository\org\apache\commons\commons-compress\1.27.1\commons-compress-1.27.1.jar;C:\Users\rajku\.m2\repository\commons-codec\commons-codec\1.17.1\commons-codec-1.17.1.jar;C:\Users\rajku\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.4.3\httpclient5-5.4.3.jar;C:\Users\rajku\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.3.4\httpcore5-5.3.4.jar;C:\Users\rajku\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.3.4\httpcore5-h2-5.3.4.jar;C:\Users\rajku\.m2\repository\net\java\dev\jna\jna-platform\5.13.0\jna-platform-5.13.0.jar;C:\Users\rajku\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\rajku\.m2\repository\org\apache\logging\log4j\log4j-api\2.24.3\log4j-api-2.24.3.jar;C:\Users\rajku\.m2\repository\org\apache\logging\log4j\log4j-core\2.24.3\log4j-core-2.24.3.jar;C:\Users\rajku\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\rajku\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\rajku\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\rajku\.m2\repository\commons-io\commons-io\2.19.0\commons-io-2.19.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
+    <property name="sun.java.command" value="C:\Users\rajku\AppData\Local\Temp\surefire13427171288720677616\surefirebooter-20250705174534155_3.jar C:\Users\rajku\AppData\Local\Temp\surefire13427171288720677616 2025-07-05T17-45-34_041-jvmRun1 surefire-20250705174534155_1tmp surefire_0-20250705174534155_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\Automation\ui-tests\target\test-classes;D:\Automation\ui-tests\target\classes;C:\Users\rajku\.m2\repository\org\seleniumhq\selenium\selenium-java\4.33.0\selenium-java-4.33.0.jar;C:\Users\rajku\.m2\repository\org\seleniumhq\selenium\selenium-api\4.33.0\selenium-api-4.33.0.jar;C:\Users\rajku\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\rajku\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.33.0\selenium-chrome-driver-4.33.0.jar;C:\Users\rajku\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\rajku\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.33.0\selenium-chromium-driver-4.33.0.jar;C:\Users\rajku\.m2\repository\org\seleniumhq\selenium\selenium-json\4.33.0\selenium-json-4.33.0.jar;C:\Users\rajku\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.33.0\selenium-manager-4.33.0.jar;C:\Users\rajku\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v135\4.33.0\selenium-devtools-v135-4.33.0.jar;C:\Users\rajku\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v136\4.33.0\selenium-devtools-v136-4.33.0.jar;C:\Users\rajku\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v137\4.33.0\selenium-devtools-v137-4.33.0.jar;C:\Users\rajku\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.33.0\selenium-edge-driver-4.33.0.jar;C:\Users\rajku\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.33.0\selenium-firefox-driver-4.33.0.jar;C:\Users\rajku\.m2\repository\org\seleniumhq\selenium\selenium-http\4.33.0\selenium-http-4.33.0.jar;C:\Users\rajku\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.33.0\selenium-ie-driver-4.33.0.jar;C:\Users\rajku\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.33.0\selenium-remote-driver-4.33.0.jar;C:\Users\rajku\.m2\repository\com\google\guava\guava\33.4.8-jre\guava-33.4.8-jre.jar;C:\Users\rajku\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\rajku\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\rajku\.m2\repository\com\google\errorprone\error_prone_annotations\2.36.0\error_prone_annotations-2.36.0.jar;C:\Users\rajku\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\rajku\.m2\repository\io\opentelemetry\opentelemetry-api\1.50.0\opentelemetry-api-1.50.0.jar;C:\Users\rajku\.m2\repository\io\opentelemetry\opentelemetry-context\1.50.0\opentelemetry-context-1.50.0.jar;C:\Users\rajku\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.50.0\opentelemetry-exporter-logging-1.50.0.jar;C:\Users\rajku\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.50.0\opentelemetry-sdk-common-1.50.0.jar;C:\Users\rajku\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.50.0\opentelemetry-sdk-extension-autoconfigure-spi-1.50.0.jar;C:\Users\rajku\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.50.0\opentelemetry-sdk-extension-autoconfigure-1.50.0.jar;C:\Users\rajku\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.50.0\opentelemetry-sdk-trace-1.50.0.jar;C:\Users\rajku\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.50.0\opentelemetry-sdk-1.50.0.jar;C:\Users\rajku\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.50.0\opentelemetry-sdk-metrics-1.50.0.jar;C:\Users\rajku\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.50.0\opentelemetry-sdk-logs-1.50.0.jar;C:\Users\rajku\.m2\repository\net\bytebuddy\byte-buddy\1.17.5\byte-buddy-1.17.5.jar;C:\Users\rajku\.m2\repository\org\seleniumhq\selenium\selenium-os\4.33.0\selenium-os-4.33.0.jar;C:\Users\rajku\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\rajku\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.33.0\selenium-safari-driver-4.33.0.jar;C:\Users\rajku\.m2\repository\org\seleniumhq\selenium\selenium-support\4.33.0\selenium-support-4.33.0.jar;C:\Users\rajku\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\rajku\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\rajku\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\rajku\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\rajku\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\rajku\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\rajku\.m2\repository\io\github\bonigarcia\webdrivermanager\6.1.0\webdrivermanager-6.1.0.jar;C:\Users\rajku\.m2\repository\org\slf4j\slf4j-api\2.0.17\slf4j-api-2.0.17.jar;C:\Users\rajku\.m2\repository\com\github\docker-java\docker-java\3.5.0\docker-java-3.5.0.jar;C:\Users\rajku\.m2\repository\com\github\docker-java\docker-java-core\3.5.0\docker-java-core-3.5.0.jar;C:\Users\rajku\.m2\repository\com\github\docker-java\docker-java-api\3.5.0\docker-java-api-3.5.0.jar;C:\Users\rajku\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.18.3\jackson-annotations-2.18.3.jar;C:\Users\rajku\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.18.3\jackson-databind-2.18.3.jar;C:\Users\rajku\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.18.3\jackson-core-2.18.3.jar;C:\Users\rajku\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\rajku\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.5.0\docker-java-transport-httpclient5-3.5.0.jar;C:\Users\rajku\.m2\repository\com\github\docker-java\docker-java-transport\3.5.0\docker-java-transport-3.5.0.jar;C:\Users\rajku\.m2\repository\net\java\dev\jna\jna\5.17.0\jna-5.17.0.jar;C:\Users\rajku\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\rajku\.m2\repository\org\apache\commons\commons-lang3\3.17.0\commons-lang3-3.17.0.jar;C:\Users\rajku\.m2\repository\org\apache\commons\commons-compress\1.27.1\commons-compress-1.27.1.jar;C:\Users\rajku\.m2\repository\commons-codec\commons-codec\1.17.1\commons-codec-1.17.1.jar;C:\Users\rajku\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.4.3\httpclient5-5.4.3.jar;C:\Users\rajku\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.3.4\httpcore5-5.3.4.jar;C:\Users\rajku\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.3.4\httpcore5-h2-5.3.4.jar;C:\Users\rajku\.m2\repository\net\java\dev\jna\jna-platform\5.13.0\jna-platform-5.13.0.jar;C:\Users\rajku\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\rajku\.m2\repository\org\apache\logging\log4j\log4j-api\2.24.3\log4j-api-2.24.3.jar;C:\Users\rajku\.m2\repository\org\apache\logging\log4j\log4j-core\2.24.3\log4j-core-2.24.3.jar;C:\Users\rajku\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\rajku\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\rajku\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\rajku\.m2\repository\commons-io\commons-io\2.19.0\commons-io-2.19.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\rajku"/>
+    <property name="user.language" value="en"/>
+    <property name="printSummary" value="false"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-04-15"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-21"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\Automation\ui-tests"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\rajku\AppData\Local\Temp\surefire13427171288720677616\surefirebooter-20250705174534155_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.7+8-LTS-245"/>
+    <property name="webdriver.edge.driver" value="C:\Users\rajku\.cache\selenium\msedgedriver\win64\138.0.3351.65\msedgedriver.exe"/>
+    <property name="user.name" value="rajku"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\rajku\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\rajku\AppData\Local\Temp\"/>
+    <property name="java.version" value="21.0.7"/>
+    <property name="user.dir" value="D:\Automation\ui-tests"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-21\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-21\bin;D:\Automation\apache-maven-3.9.10-bin\apache-maven-3.9.10\bin;C:\Program Files\Git\cmd;C:\Users\rajku\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="21.0.7+8-LTS-245"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="testListGroupInTest2" classname="com.krollresolver.automation.tests.Test2_ListGroupTest" time="0.401">
+    <system-out><![CDATA[2025-07-05 17:45:35 [main] INFO  [com.krollresolver.automation.reporting.ExtentReportGenerator:43] ✅ Extent report initialized at: D:\Automation\ui-tests\ExtentReports\index.html
+2025-07-05 17:45:35 [main] INFO  [com.krollresolver.automation.listeners.MyTransformer:17] Applied RetryAnalyzer to test method: verifyLoginFieldsArePresent
+2025-07-05 17:45:35 [main] INFO  [com.krollresolver.automation.listeners.MyTransformer:17] Applied RetryAnalyzer to test method: verifyInvalidEmailFormatValidation
+2025-07-05 17:45:35 [main] INFO  [com.krollresolver.automation.listeners.MyTransformer:17] Applied RetryAnalyzer to test method: verifyPasswordFieldIsMasked
+2025-07-05 17:45:35 [main] INFO  [com.krollresolver.automation.listeners.MyTransformer:17] Applied RetryAnalyzer to test method: verifyRequiredEmailFieldValidationMessage
+2025-07-05 17:45:35 [main] INFO  [com.krollresolver.automation.listeners.MyTransformer:17] Applied RetryAnalyzer to test method: verifyRequiredPasswordFieldValidationMessage
+2025-07-05 17:45:35 [main] INFO  [com.krollresolver.automation.listeners.MyTransformer:17] Applied RetryAnalyzer to test method: verifyInputFieldPlaceholders
+2025-07-05 17:45:35 [main] INFO  [com.krollresolver.automation.listeners.MyTransformer:17] Applied RetryAnalyzer to test method: verifyFieldValidationMessages
+2025-07-05 17:45:35 [main] INFO  [com.krollresolver.automation.listeners.MyTransformer:17] Applied RetryAnalyzer to test method: testListGroupInTest2
+2025-07-05 17:45:35 [main] INFO  [com.krollresolver.automation.config.ReadDataConfig:17] Loading configuration from: D:\Automation\ui-tests\.\Configurations\config.properties
+2025-07-05 17:45:35 [main] INFO  [com.krollresolver.automation.config.ReadDataConfig:23] Configuration loaded successfully.
+2025-07-05 17:45:35 [main] INFO  [com.krollresolver.automation.listeners.MyTransformer:17] Applied RetryAnalyzer to test method: testDropdownSelection
+2025-07-05 17:45:35 [main] INFO  [com.krollresolver.automation.listeners.MyTransformer:17] Applied RetryAnalyzer to test method: verifyButtonStatesOnTest4Page
+2025-07-05 17:45:35 [main] INFO  [com.krollresolver.automation.listeners.MyTransformer:17] Applied RetryAnalyzer to test method: verifyDelayedButtonBehavior
+2025-07-05 17:45:35 [main] INFO  [com.krollresolver.automation.listeners.MyTransformer:17] Applied RetryAnalyzer to test method: verifyGridDataAndCoordinates
+2025-07-05 17:45:35 [main] INFO  [com.krollresolver.automation.listeners.TestListeners:22] 📦 Test execution started: Chrome_Tests
+2025-07-05 17:45:35 [TestNG-test-Chrome_Tests-1] INFO  [com.krollresolver.automation.base.BaseTest:35] Setting up browser: chrome
+2025-07-05 17:45:35 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.base.BaseTest:35] Setting up browser: chrome
+2025-07-05 17:45:37 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.base.BaseTest:61] Navigated to: file:///D:/AutomationChallenge_2022/QE-index.html
+2025-07-05 17:45:37 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.base.Page:23] chrome browser is ready.
+2025-07-05 17:45:37 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.listeners.TestListeners:47] Test started: verifyLoginFieldsArePresent
+2025-07-05 17:45:37 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.tests.Test1_LoginTest:26] Starting Test Case: Test 1 - Sample Login Test
+2025-07-05 17:45:37 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.tests.Test1_LoginTest:27] Navigating to Sample Login Page
+2025-07-05 17:45:37 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.tests.Test1_LoginTest:30] Verifying the Test Page title
+2025-07-05 17:45:37 [TestNG-test-Chrome_Tests-1] INFO  [com.krollresolver.automation.base.BaseTest:61] Navigated to: file:///D:/AutomationChallenge_2022/QE-index.html
+2025-07-05 17:45:37 [TestNG-test-Chrome_Tests-1] INFO  [com.krollresolver.automation.listeners.TestListeners:47] Test started: testListGroupInTest2
+2025-07-05 17:45:37 [TestNG-test-Chrome_Tests-1] INFO  [com.krollresolver.automation.base.Page:23] chrome browser is ready.
+2025-07-05 17:45:37 [TestNG-test-Chrome_Tests-1] INFO  [com.krollresolver.automation.tests.Test2_ListGroupTest:19] Verifying the Home text
+2025-07-05 17:45:37 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.base.BasePage:28] Read text from element By.xpath: //a[text()='Test Page']: Test Page
+2025-07-05 17:45:37 [TestNG-test-Chrome_Tests-1] INFO  [com.krollresolver.automation.base.BasePage:28] Read text from element By.xpath: //a[contains(text(),'Home ')]: Home
+(current)
+2025-07-05 17:45:37 [TestNG-test-Chrome_Tests-1] INFO  [com.krollresolver.automation.pages.ListGroupPage:37] Home Text: Home
+(current)
+2025-07-05 17:45:37 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.pages.LoginPage:32] Test Page Title: Test Page
+2025-07-05 17:45:37 [TestNG-test-Chrome_Tests-1] INFO  [com.krollresolver.automation.tests.Test2_ListGroupTest:23] [PASS] Home text verified successfully: Home
+(current)
+2025-07-05 17:45:37 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.tests.Test1_LoginTest:34] [PASS] Test Page title verified successfully: Test Page
+2025-07-05 17:45:37 [TestNG-test-Chrome_Tests-1] INFO  [com.krollresolver.automation.tests.Test2_ListGroupTest:26] Navigating to List Group page
+2025-07-05 17:45:37 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.tests.Test1_LoginTest:37] Verifying the Home text
+2025-07-05 17:45:37 [TestNG-test-Chrome_Tests-1] INFO  [com.krollresolver.automation.pages.ListGroupPage:30] Verifying text of Test 2 Header
+2025-07-05 17:45:37 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.base.BasePage:28] Read text from element By.xpath: //a[contains(text(),'Home ')]: Home
+(current)
+2025-07-05 17:45:37 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.pages.LoginPage:38] Home Text: Home
+(current)
+2025-07-05 17:45:37 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.tests.Test1_LoginTest:41] [PASS] Home text verified successfully: Home
+(current)
+2025-07-05 17:45:37 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.tests.Test1_LoginTest:44] Verifying the Test 1 Header text
+2025-07-05 17:45:37 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.pages.LoginPage:43] Verifying text of Test 1 Header
+2025-07-05 17:45:37 [TestNG-test-Chrome_Tests-1] INFO  [com.krollresolver.automation.base.BasePage:28] Read text from element By.xpath: //h1[text()='Test 2']: Test 2
+2025-07-05 17:45:37 [TestNG-test-Chrome_Tests-1] INFO  [com.krollresolver.automation.tests.Test2_ListGroupTest:30] [PASS] Test 2 header text verified successfully: Test 2
+2025-07-05 17:45:37 [TestNG-test-Chrome_Tests-1] INFO  [com.krollresolver.automation.tests.Test2_ListGroupTest:33] Verifying the number of list items in Test 2
+2025-07-05 17:45:37 [TestNG-test-Chrome_Tests-1] INFO  [com.krollresolver.automation.pages.ListGroupPage:44] Retrieving all list group items
+2025-07-05 17:45:37 [TestNG-test-Chrome_Tests-1] INFO  [com.krollresolver.automation.tests.Test2_ListGroupTest:35] Number of list items found: 3
+2025-07-05 17:45:37 [TestNG-test-Chrome_Tests-1] INFO  [com.krollresolver.automation.tests.Test2_ListGroupTest:37] [PASS] Number of list items verified successfully: 3
+2025-07-05 17:45:37 [TestNG-test-Chrome_Tests-1] INFO  [com.krollresolver.automation.tests.Test2_ListGroupTest:40] Verifying the text of List Item 2
+2025-07-05 17:45:37 [TestNG-test-Chrome_Tests-1] INFO  [com.krollresolver.automation.pages.ListGroupPage:44] Retrieving all list group items
+2025-07-05 17:45:37 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.base.BasePage:28] Read text from element By.xpath: //div[@id='test-1-div']//h1[text()='Test 1']: Test 1
+2025-07-05 17:45:37 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.tests.Test1_LoginTest:49] [PASS] Test 1 header text verified successfully: Test 1
+2025-07-05 17:45:37 [TestNG-test-Chrome_Tests-1] INFO  [com.krollresolver.automation.pages.ListGroupPage:59] Full text of list item at index 1: List Item 2 6
+2025-07-05 17:45:37 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.tests.Test1_LoginTest:52] Verifying if Email field is displayed
+2025-07-05 17:45:37 [TestNG-test-Chrome_Tests-1] INFO  [com.krollresolver.automation.pages.ListGroupPage:64] Badge text found: 6
+2025-07-05 17:45:37 [TestNG-test-Chrome_Tests-1] INFO  [com.krollresolver.automation.pages.ListGroupPage:70] Extracted label: List Item 2
+2025-07-05 17:45:37 [TestNG-test-Chrome_Tests-1] INFO  [com.krollresolver.automation.tests.Test2_ListGroupTest:44] [PASS] List Item 2 text verified successfully
+2025-07-05 17:45:37 [TestNG-test-Chrome_Tests-1] INFO  [com.krollresolver.automation.tests.Test2_ListGroupTest:47] Verifying the badge value of List Item 2
+2025-07-05 17:45:37 [TestNG-test-Chrome_Tests-1] INFO  [com.krollresolver.automation.tests.Test2_ListGroupTest:50] [PASS] Badge value for List Item 2 verified successfully
+2025-07-05 17:45:37 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.base.BasePage:53] Element By.id: inputEmail is displayed: true
+2025-07-05 17:45:37 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.pages.LoginPage:50] Email Input Field displayed: true
+2025-07-05 17:45:37 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.tests.Test1_LoginTest:55] [PASS] Email field is displayed as expected.
+2025-07-05 17:45:37 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.tests.Test1_LoginTest:58] Verifying if Password field is displayed
+2025-07-05 17:45:38 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.base.BasePage:53] Element By.id: inputPassword is displayed: true
+2025-07-05 17:45:38 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.pages.LoginPage:93] Password Input Field displayed: true
+2025-07-05 17:45:38 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.tests.Test1_LoginTest:61] [PASS] Password field is displayed as expected.
+2025-07-05 17:45:38 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.tests.Test1_LoginTest:64] Verifying if Login button is displayed
+2025-07-05 17:45:38 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.base.BasePage:53] Element By.xpath: //button[text()='Sign in'] is displayed: true
+2025-07-05 17:45:38 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.pages.LoginPage:114] Login Button displayed: true
+2025-07-05 17:45:38 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.tests.Test1_LoginTest:67] [PASS] Login button is displayed as expected.
+2025-07-05 17:45:38 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.tests.Test1_LoginTest:70] Entering Email and Password
+2025-07-05 17:45:38 [TestNG-test-Chrome_Tests-1] INFO  [com.krollresolver.automation.utils.TaskeScreenshotUtilities:33] Full-page screenshot saved: D:\Automation\ui-tests\Screenshots\testListGroupInTest2.png
+]]></system-out>
+    <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Jul 05, 2025 5:45:37 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 138
+Jul 05, 2025 5:45:37 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 138
+]]></system-err>
+  </testcase>
+  <testcase name="verifyLoginFieldsArePresent" classname="com.krollresolver.automation.tests.Test1_LoginTest" time="0.848">
+    <system-out><![CDATA[2025-07-05 17:45:38 [TestNG-test-Chrome_Tests-1] INFO  [com.krollresolver.automation.base.BaseTest:73] Closing WebDriver session
+2025-07-05 17:45:38 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.base.BasePage:131] Typed 'test@testing.com' into element: By.id: inputEmail
+2025-07-05 17:45:38 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.pages.LoginPage:56] Entered Email: test@testing.com
+2025-07-05 17:45:38 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.base.BasePage:131] Typed 'testing123' into element: By.id: inputPassword
+2025-07-05 17:45:38 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.pages.LoginPage:109] Entered Password.
+2025-07-05 17:45:38 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.tests.Test1_LoginTest:73] [PASS] Email and Password entered successfully.
+2025-07-05 17:45:38 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.tests.Test1_LoginTest:76] Clicking the Login button
+2025-07-05 17:45:38 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.base.BasePage:142] Clicked element: By.xpath: //button[text()='Sign in']
+2025-07-05 17:45:38 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.pages.LoginPage:120] Clicked Login Button.
+2025-07-05 17:45:38 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.tests.Test1_LoginTest:78] [PASS] Login button clicked successfully.
+2025-07-05 17:45:38 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.utils.TaskeScreenshotUtilities:33] Full-page screenshot saved: D:\Automation\ui-tests\Screenshots\verifyLoginFieldsArePresent.png
+]]></system-out>
+  </testcase>
+  <testcase name="verifyInvalidEmailFormatValidation" classname="com.krollresolver.automation.tests.Test1_LoginTest" time="0.542">
+    <system-out><![CDATA[2025-07-05 17:45:38 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.base.Page:23] chrome browser is ready.
+2025-07-05 17:45:38 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.listeners.TestListeners:47] Test started: verifyInvalidEmailFormatValidation
+2025-07-05 17:45:38 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.tests.Test1_LoginTest:83] Entering invalid email format
+2025-07-05 17:45:38 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.base.BasePage:131] Typed 'invalid-email' into element: By.id: inputEmail
+2025-07-05 17:45:38 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.pages.LoginPage:56] Entered Email: invalid-email
+2025-07-05 17:45:38 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.tests.Test1_LoginTest:85] Clicking login button with invalid email format
+2025-07-05 17:45:38 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.base.BasePage:142] Clicked element: By.xpath: //button[text()='Sign in']
+2025-07-05 17:45:38 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.pages.LoginPage:120] Clicked Login Button.
+2025-07-05 17:45:38 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.pages.LoginPage:76] Retrieving browser-native validation message from Email field
+2025-07-05 17:45:38 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.base.BasePage:108] Waiting for element to be visible: By.id: inputEmail
+2025-07-05 17:45:38 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.tests.Test1_LoginTest:90] Validation message for invalid email: Please include an '@' in the email address. 'invalid-email' is missing an '@'.
+2025-07-05 17:45:38 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.tests.Test1_LoginTest:93] [PASS] Email format validation message verified.
+2025-07-05 17:45:39 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.utils.TaskeScreenshotUtilities:33] Full-page screenshot saved: D:\Automation\ui-tests\Screenshots\verifyInvalidEmailFormatValidation.png
+]]></system-out>
+  </testcase>
+  <testcase name="verifyRequiredPasswordFieldValidationMessage" classname="com.krollresolver.automation.tests.Test1_LoginTest" time="0.53">
+    <system-out><![CDATA[2025-07-05 17:45:39 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.base.Page:23] chrome browser is ready.
+2025-07-05 17:45:39 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.listeners.TestListeners:47] Test started: verifyRequiredPasswordFieldValidationMessage
+2025-07-05 17:45:39 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.tests.Test1_LoginTest:98] Entering valid email and leaving password empty
+2025-07-05 17:45:39 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.base.BasePage:131] Typed 'test@testing.com' into element: By.id: inputEmail
+2025-07-05 17:45:39 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.pages.LoginPage:56] Entered Email: test@testing.com
+2025-07-05 17:45:39 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.tests.Test1_LoginTest:101] Clicking login button without entering password
+2025-07-05 17:45:39 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.base.BasePage:142] Clicked element: By.xpath: //button[text()='Sign in']
+2025-07-05 17:45:39 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.pages.LoginPage:120] Clicked Login Button.
+2025-07-05 17:45:39 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.tests.Test1_LoginTest:103] Capturing validation message for password field
+2025-07-05 17:45:39 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.pages.LoginPage:84] Retrieving browser-native validation message from Password field
+2025-07-05 17:45:39 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.base.BasePage:108] Waiting for element to be visible: By.id: inputPassword
+2025-07-05 17:45:39 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.pages.LoginPage:84] Retrieving browser-native validation message from Password field
+2025-07-05 17:45:39 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.base.BasePage:108] Waiting for element to be visible: By.id: inputPassword
+2025-07-05 17:45:39 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.tests.Test1_LoginTest:106] Validation message for password field: Please fill out this field.
+2025-07-05 17:45:39 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.tests.Test1_LoginTest:109] [PASS] Validation message for password field verified successfully.
+2025-07-05 17:45:39 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.utils.TaskeScreenshotUtilities:33] Full-page screenshot saved: D:\Automation\ui-tests\Screenshots\verifyRequiredPasswordFieldValidationMessage.png
+]]></system-out>
+  </testcase>
+  <testcase name="verifyRequiredEmailFieldValidationMessage" classname="com.krollresolver.automation.tests.Test1_LoginTest" time="0.409">
+    <system-out><![CDATA[2025-07-05 17:45:39 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.base.Page:23] chrome browser is ready.
+2025-07-05 17:45:39 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.listeners.TestListeners:47] Test started: verifyRequiredEmailFieldValidationMessage
+2025-07-05 17:45:39 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.tests.Test1_LoginTest:115] leaving password empty and Entering email
+2025-07-05 17:45:39 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.base.BasePage:131] Typed 'password' into element: By.id: inputPassword
+2025-07-05 17:45:39 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.pages.LoginPage:109] Entered Password.
+2025-07-05 17:45:39 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.tests.Test1_LoginTest:118] Clicking login button without entering password
+2025-07-05 17:45:39 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.base.BasePage:142] Clicked element: By.xpath: //button[text()='Sign in']
+2025-07-05 17:45:39 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.pages.LoginPage:120] Clicked Login Button.
+2025-07-05 17:45:39 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.pages.LoginPage:76] Retrieving browser-native validation message from Email field
+2025-07-05 17:45:39 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.base.BasePage:108] Waiting for element to be visible: By.id: inputEmail
+2025-07-05 17:45:39 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.tests.Test1_LoginTest:122] Validation message captured: Please fill out this field.
+2025-07-05 17:45:39 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.tests.Test1_LoginTest:125] [PASS] Validation message verified successfully.
+2025-07-05 17:45:40 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.utils.TaskeScreenshotUtilities:33] Full-page screenshot saved: D:\Automation\ui-tests\Screenshots\verifyRequiredEmailFieldValidationMessage.png
+]]></system-out>
+  </testcase>
+  <testcase name="verifyPasswordFieldIsMasked" classname="com.krollresolver.automation.tests.Test1_LoginTest" time="0.208">
+    <system-out><![CDATA[2025-07-05 17:45:40 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.base.Page:23] chrome browser is ready.
+2025-07-05 17:45:40 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.listeners.TestListeners:47] Test started: verifyPasswordFieldIsMasked
+2025-07-05 17:45:40 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.tests.Test1_LoginTest:130] Verifying that the password field is masked.
+2025-07-05 17:45:40 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.pages.LoginPage:98] Retrieving Password Input Field type attribute.
+2025-07-05 17:45:40 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.base.BasePage:108] Waiting for element to be visible: By.id: inputPassword
+2025-07-05 17:45:40 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.pages.LoginPage:103] Password Input Field type attribute: password
+2025-07-05 17:45:40 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.tests.Test1_LoginTest:133] Password field type: password
+2025-07-05 17:45:40 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.tests.Test1_LoginTest:135] [PASS] Password field is masked as expected.
+2025-07-05 17:45:40 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.utils.TaskeScreenshotUtilities:33] Full-page screenshot saved: D:\Automation\ui-tests\Screenshots\verifyPasswordFieldIsMasked.png
+]]></system-out>
+  </testcase>
+  <testcase name="verifyInputFieldPlaceholders" classname="com.krollresolver.automation.tests.Test1_LoginTest" time="0.269">
+    <system-out><![CDATA[2025-07-05 17:45:40 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.base.Page:23] chrome browser is ready.
+2025-07-05 17:45:40 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.listeners.TestListeners:47] Test started: verifyInputFieldPlaceholders
+2025-07-05 17:45:40 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.tests.Test1_LoginTest:140] Verifying input field placeholders for Email and Password fields.
+2025-07-05 17:45:40 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.pages.LoginPage:60] Retrieving placeholder from Email field
+2025-07-05 17:45:40 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.base.BasePage:108] Waiting for element to be visible: By.id: inputEmail
+2025-07-05 17:45:40 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.pages.LoginPage:68] Retrieving placeholder from Password field
+2025-07-05 17:45:40 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.base.BasePage:108] Waiting for element to be visible: By.id: inputPassword
+2025-07-05 17:45:40 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.tests.Test1_LoginTest:145] Email placeholder: Email address
+2025-07-05 17:45:40 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.tests.Test1_LoginTest:146] Password placeholder: Password
+2025-07-05 17:45:40 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.tests.Test1_LoginTest:150] [PASS] Input field placeholders verified successfully.
+2025-07-05 17:45:40 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.utils.TaskeScreenshotUtilities:33] Full-page screenshot saved: D:\Automation\ui-tests\Screenshots\verifyInputFieldPlaceholders.png
+]]></system-out>
+  </testcase>
+  <testcase name="verifyFieldValidationMessages[, password, email, Please fill out this field.](1)" classname="com.krollresolver.automation.tests.Test1_LoginTest" time="0.415">
+    <system-out><![CDATA[2025-07-05 17:45:40 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.base.Page:23] chrome browser is ready.
+2025-07-05 17:45:40 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.listeners.TestListeners:47] Test started: verifyFieldValidationMessages
+2025-07-05 17:45:40 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.tests.Test1_LoginTest:157] Entering email:  and password: password
+2025-07-05 17:45:40 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.base.BasePage:131] Typed '' into element: By.id: inputEmail
+2025-07-05 17:45:40 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.pages.LoginPage:56] Entered Email: 
+2025-07-05 17:45:40 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.base.BasePage:131] Typed 'password' into element: By.id: inputPassword
+2025-07-05 17:45:40 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.pages.LoginPage:109] Entered Password.
+2025-07-05 17:45:40 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.base.BasePage:142] Clicked element: By.xpath: //button[text()='Sign in']
+2025-07-05 17:45:40 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.pages.LoginPage:120] Clicked Login Button.
+2025-07-05 17:45:40 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.pages.LoginPage:76] Retrieving browser-native validation message from Email field
+2025-07-05 17:45:40 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.base.BasePage:108] Waiting for element to be visible: By.id: inputEmail
+2025-07-05 17:45:40 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.tests.Test1_LoginTest:165] Validation message for email field: Please fill out this field.
+2025-07-05 17:45:40 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.tests.Test1_LoginTest:168] [PASS] Validation message verified successfully for email field.
+2025-07-05 17:45:40 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.utils.TaskeScreenshotUtilities:33] Full-page screenshot saved: D:\Automation\ui-tests\Screenshots\verifyFieldValidationMessages.png
+]]></system-out>
+  </testcase>
+  <testcase name="verifyFieldValidationMessages[invalid-email, password, email, Please include an &apos;@&apos;](2)" classname="com.krollresolver.automation.tests.Test1_LoginTest" time="0.572">
+    <system-out><![CDATA[2025-07-05 17:45:40 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.base.Page:23] chrome browser is ready.
+2025-07-05 17:45:40 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.listeners.TestListeners:47] Test started: verifyFieldValidationMessages
+2025-07-05 17:45:40 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.tests.Test1_LoginTest:157] Entering email: invalid-email and password: password
+2025-07-05 17:45:41 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.base.BasePage:131] Typed 'invalid-email' into element: By.id: inputEmail
+2025-07-05 17:45:41 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.pages.LoginPage:56] Entered Email: invalid-email
+2025-07-05 17:45:41 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.base.BasePage:131] Typed 'password' into element: By.id: inputPassword
+2025-07-05 17:45:41 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.pages.LoginPage:109] Entered Password.
+2025-07-05 17:45:41 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.base.BasePage:142] Clicked element: By.xpath: //button[text()='Sign in']
+2025-07-05 17:45:41 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.pages.LoginPage:120] Clicked Login Button.
+2025-07-05 17:45:41 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.pages.LoginPage:76] Retrieving browser-native validation message from Email field
+2025-07-05 17:45:41 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.base.BasePage:108] Waiting for element to be visible: By.id: inputEmail
+2025-07-05 17:45:41 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.tests.Test1_LoginTest:165] Validation message for email field: Please include an '@' in the email address. 'invalid-email' is missing an '@'.
+2025-07-05 17:45:41 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.tests.Test1_LoginTest:168] [PASS] Validation message verified successfully for email field.
+2025-07-05 17:45:41 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.utils.TaskeScreenshotUtilities:33] Full-page screenshot saved: D:\Automation\ui-tests\Screenshots\verifyFieldValidationMessages.png
+]]></system-out>
+  </testcase>
+  <testcase name="verifyFieldValidationMessages[test@testing.com, , password, Please fill out this field.](3)" classname="com.krollresolver.automation.tests.Test1_LoginTest" time="0.623">
+    <system-out><![CDATA[2025-07-05 17:45:41 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.base.Page:23] chrome browser is ready.
+2025-07-05 17:45:41 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.listeners.TestListeners:47] Test started: verifyFieldValidationMessages
+2025-07-05 17:45:41 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.tests.Test1_LoginTest:157] Entering email: test@testing.com and password: 
+2025-07-05 17:45:41 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.base.BasePage:131] Typed 'test@testing.com' into element: By.id: inputEmail
+2025-07-05 17:45:41 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.pages.LoginPage:56] Entered Email: test@testing.com
+2025-07-05 17:45:41 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.base.BasePage:131] Typed '' into element: By.id: inputPassword
+2025-07-05 17:45:41 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.pages.LoginPage:109] Entered Password.
+2025-07-05 17:45:41 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.base.BasePage:142] Clicked element: By.xpath: //button[text()='Sign in']
+2025-07-05 17:45:41 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.pages.LoginPage:120] Clicked Login Button.
+2025-07-05 17:45:41 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.pages.LoginPage:84] Retrieving browser-native validation message from Password field
+2025-07-05 17:45:41 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.base.BasePage:108] Waiting for element to be visible: By.id: inputPassword
+2025-07-05 17:45:41 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.tests.Test1_LoginTest:165] Validation message for password field: Please fill out this field.
+2025-07-05 17:45:41 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.tests.Test1_LoginTest:168] [PASS] Validation message verified successfully for password field.
+2025-07-05 17:45:42 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.utils.TaskeScreenshotUtilities:33] Full-page screenshot saved: D:\Automation\ui-tests\Screenshots\verifyFieldValidationMessages.png
+]]></system-out>
+  </testcase>
+  <testcase name="verifyButtonStatesOnTest4Page" classname="com.krollresolver.automation.tests.Test4_ButtonStateTest" time="0.365">
+    <system-out><![CDATA[2025-07-05 17:45:42 [TestNG-test-Chrome_Tests-2] INFO  [com.krollresolver.automation.base.BaseTest:73] Closing WebDriver session
+2025-07-05 17:45:42 [main] INFO  [com.krollresolver.automation.listeners.TestListeners:83] Test execution finished: Chrome_Tests
+PASSED: com.krollresolver.automation.tests.Test1_LoginTest.verifyRequiredPasswordFieldValidationMessage
+PASSED: com.krollresolver.automation.tests.Test1_LoginTest.verifyFieldValidationMessages("invalid-email", "password", "email", "Please include an '@'")
+PASSED: com.krollresolver.automation.tests.Test1_LoginTest.verifyLoginFieldsArePresent
+PASSED: com.krollresolver.automation.tests.Test1_LoginTest.verifyInputFieldPlaceholders
+PASSED: com.krollresolver.automation.tests.Test2_ListGroupTest.testListGroupInTest2
+PASSED: com.krollresolver.automation.tests.Test1_LoginTest.verifyInvalidEmailFormatValidation
+PASSED: com.krollresolver.automation.tests.Test1_LoginTest.verifyFieldValidationMessages("test@testing.com", "", "password", "Please fill out this field.")
+PASSED: com.krollresolver.automation.tests.Test1_LoginTest.verifyFieldValidationMessages("", "password", "email", "Please fill out this field.")
+PASSED: com.krollresolver.automation.tests.Test1_LoginTest.verifyRequiredEmailFieldValidationMessage
+PASSED: com.krollresolver.automation.tests.Test1_LoginTest.verifyPasswordFieldIsMasked
+
+===============================================
+    Chrome_Tests
+    Tests run: 8, Failures: 0, Skips: 0
+===============================================
+
+2025-07-05 17:45:42 [main] INFO  [com.krollresolver.automation.listeners.TestListeners:22] 📦 Test execution started: Edge_Tests
+2025-07-05 17:45:42 [TestNG-test-Edge_Tests-2] INFO  [com.krollresolver.automation.base.BaseTest:35] Setting up browser: chrome
+2025-07-05 17:45:42 [TestNG-test-Edge_Tests-1] INFO  [com.krollresolver.automation.base.BaseTest:35] Setting up browser: chrome
+2025-07-05 17:45:44 [TestNG-test-Edge_Tests-1] INFO  [com.krollresolver.automation.base.BaseTest:61] Navigated to: file:///D:/AutomationChallenge_2022/QE-index.html
+2025-07-05 17:45:44 [TestNG-test-Edge_Tests-1] INFO  [com.krollresolver.automation.listeners.TestListeners:47] Test started: testDropdownSelection
+2025-07-05 17:45:44 [TestNG-test-Edge_Tests-1] INFO  [com.krollresolver.automation.base.Page:23] MicrosoftEdge browser is ready.
+2025-07-05 17:45:44 [TestNG-test-Edge_Tests-1] INFO  [com.krollresolver.automation.tests.Test3_DropdownTest:18] Verifying the Home text
+2025-07-05 17:45:44 [TestNG-test-Edge_Tests-1] INFO  [com.krollresolver.automation.base.BasePage:28] Read text from element By.xpath: //a[contains(text(),'Home ')]: Home
+(current)
+2025-07-05 17:45:44 [TestNG-test-Edge_Tests-1] INFO  [com.krollresolver.automation.pages.DropdownPage:30] Home Text: Home
+(current)
+2025-07-05 17:45:44 [TestNG-test-Edge_Tests-1] INFO  [com.krollresolver.automation.tests.Test3_DropdownTest:22] [PASS] Home text verified successfully: Home
+(current)
+2025-07-05 17:45:44 [TestNG-test-Edge_Tests-1] INFO  [com.krollresolver.automation.tests.Test3_DropdownTest:25] Navigating to Dropdown page
+2025-07-05 17:45:44 [TestNG-test-Edge_Tests-1] INFO  [com.krollresolver.automation.pages.DropdownPage:35] Retrieving the Test Page Title
+2025-07-05 17:45:44 [TestNG-test-Edge_Tests-1] INFO  [com.krollresolver.automation.base.BasePage:28] Read text from element By.xpath: //div//h1[contains(text(), 'Test 3')]: Test 3
+2025-07-05 17:45:44 [TestNG-test-Edge_Tests-1] INFO  [com.krollresolver.automation.tests.Test3_DropdownTest:29] [PASS] Header text verified successfully: Test 3
+2025-07-05 17:45:44 [TestNG-test-Edge_Tests-1] INFO  [com.krollresolver.automation.tests.Test3_DropdownTest:32] Verifying default selected option in dropdown
+2025-07-05 17:45:44 [TestNG-test-Edge_Tests-1] INFO  [com.krollresolver.automation.pages.DropdownPage:52] Retrieving the default value from the dropdown.
+2025-07-05 17:45:44 [TestNG-test-Edge_Tests-1] INFO  [com.krollresolver.automation.base.BasePage:28] Read text from element By.xpath: //button[@id='dropdownMenuButton']: Option 1
+2025-07-05 17:45:44 [TestNG-test-Edge_Tests-1] INFO  [com.krollresolver.automation.tests.Test3_DropdownTest:36] [PASS] Default selected option verified successfully: Option 1
+2025-07-05 17:45:44 [TestNG-test-Edge_Tests-1] INFO  [com.krollresolver.automation.tests.Test3_DropdownTest:39] Selecting an option from the dropdown
+2025-07-05 17:45:44 [TestNG-test-Edge_Tests-1] INFO  [com.krollresolver.automation.base.BasePage:53] Element By.xpath: //button[@id='dropdownMenuButton'] is displayed: true
+2025-07-05 17:45:44 [TestNG-test-Edge_Tests-2] INFO  [com.krollresolver.automation.base.BaseTest:61] Navigated to: file:///D:/AutomationChallenge_2022/QE-index.html
+2025-07-05 17:45:44 [TestNG-test-Edge_Tests-2] INFO  [com.krollresolver.automation.listeners.TestListeners:47] Test started: verifyButtonStatesOnTest4Page
+2025-07-05 17:45:44 [TestNG-test-Edge_Tests-2] INFO  [com.krollresolver.automation.base.Page:23] MicrosoftEdge browser is ready.
+2025-07-05 17:45:44 [TestNG-test-Edge_Tests-2] INFO  [com.krollresolver.automation.tests.Test4_ButtonStateTest:18] Verifying the Home text
+2025-07-05 17:45:44 [TestNG-test-Edge_Tests-2] INFO  [com.krollresolver.automation.base.BasePage:28] Read text from element By.xpath: //a[contains(text(),'Home ')]: Home
+(current)
+2025-07-05 17:45:44 [TestNG-test-Edge_Tests-2] INFO  [com.krollresolver.automation.pages.ButtonStatePage:28] Home Text: Home
+(current)
+2025-07-05 17:45:44 [TestNG-test-Edge_Tests-2] INFO  [com.krollresolver.automation.tests.Test4_ButtonStateTest:22] [PASS] Home text verified successfully: Home
+(current)
+2025-07-05 17:45:44 [TestNG-test-Edge_Tests-2] INFO  [com.krollresolver.automation.tests.Test4_ButtonStateTest:25] Verifying the Test 4 header
+2025-07-05 17:45:44 [TestNG-test-Edge_Tests-2] INFO  [com.krollresolver.automation.pages.ButtonStatePage:33] Retrieving the Test 4 header text.
+2025-07-05 17:45:44 [TestNG-test-Edge_Tests-1] INFO  [com.krollresolver.automation.base.BasePage:142] Clicked element: By.xpath: //button[@id='dropdownMenuButton']
+2025-07-05 17:45:44 [TestNG-test-Edge_Tests-1] INFO  [com.krollresolver.automation.pages.DropdownPage:45] Clicked on the dropdown element.
+2025-07-05 17:45:44 [TestNG-test-Edge_Tests-1] INFO  [com.krollresolver.automation.pages.DropdownPage:57] Selecting value from dropdown: Option 3
+2025-07-05 17:45:44 [TestNG-test-Edge_Tests-2] INFO  [com.krollresolver.automation.base.BasePage:28] Read text from element By.xpath: //h1[text()='Test 4']: Test 4
+2025-07-05 17:45:44 [TestNG-test-Edge_Tests-2] INFO  [com.krollresolver.automation.tests.Test4_ButtonStateTest:29] [PASS] Header text verified successfully: Test 4
+2025-07-05 17:45:44 [TestNG-test-Edge_Tests-2] INFO  [com.krollresolver.automation.tests.Test4_ButtonStateTest:32] Verifying initial state of the buttons
+2025-07-05 17:45:44 [TestNG-test-Edge_Tests-2] INFO  [com.krollresolver.automation.pages.ButtonStatePage:41] Verifying button states on the Button State Page...
+2025-07-05 17:45:44 [TestNG-test-Edge_Tests-1] INFO  [com.krollresolver.automation.pages.DropdownPage:59] Total options available: 3
+2025-07-05 17:45:44 [TestNG-test-Edge_Tests-2] INFO  [com.krollresolver.automation.pages.ButtonStatePage:43] Total buttons found: 2
+2025-07-05 17:45:44 [TestNG-test-Edge_Tests-1] INFO  [com.krollresolver.automation.pages.DropdownPage:63] Checking dropdown option: Option 1
+2025-07-05 17:45:44 [TestNG-test-Edge_Tests-2] INFO  [com.krollresolver.automation.pages.ButtonStatePage:53] First button is enabled
+2025-07-05 17:45:44 [TestNG-test-Edge_Tests-2] INFO  [com.krollresolver.automation.pages.ButtonStatePage:54] Second button is disabled
+2025-07-05 17:45:44 [TestNG-test-Edge_Tests-2] INFO  [com.krollresolver.automation.pages.ButtonStatePage:57] [PASS] Button states are as expected: first enabled, second disabled.
+2025-07-05 17:45:44 [TestNG-test-Edge_Tests-2] INFO  [com.krollresolver.automation.tests.Test4_ButtonStateTest:36] [PASS] Button states verified successfully: first enabled, second disabled.
+2025-07-05 17:45:44 [TestNG-test-Edge_Tests-1] INFO  [com.krollresolver.automation.pages.DropdownPage:63] Checking dropdown option: Option 2
+2025-07-05 17:45:44 [TestNG-test-Edge_Tests-1] INFO  [com.krollresolver.automation.pages.DropdownPage:63] Checking dropdown option: Option 3
+2025-07-05 17:45:44 [TestNG-test-Edge_Tests-1] INFO  [com.krollresolver.automation.pages.DropdownPage:66] Selecting dropdown value: Option 3
+2025-07-05 17:45:44 [TestNG-test-Edge_Tests-1] INFO  [com.krollresolver.automation.pages.DropdownPage:68] [PASS] Dropdown value 'Option 3' selected successfully.
+2025-07-05 17:45:44 [TestNG-test-Edge_Tests-1] INFO  [com.krollresolver.automation.tests.Test3_DropdownTest:45] Verifying selected option in dropdown
+2025-07-05 17:45:44 [TestNG-test-Edge_Tests-1] INFO  [com.krollresolver.automation.pages.DropdownPage:52] Retrieving the default value from the dropdown.
+2025-07-05 17:45:44 [TestNG-test-Edge_Tests-1] INFO  [com.krollresolver.automation.base.BasePage:28] Read text from element By.xpath: //button[@id='dropdownMenuButton']: Option 3
+2025-07-05 17:45:44 [TestNG-test-Edge_Tests-1] INFO  [com.krollresolver.automation.tests.Test3_DropdownTest:49] [PASS] Selected option verified successfully: Option 3
+2025-07-05 17:45:44 [TestNG-test-Edge_Tests-2] INFO  [com.krollresolver.automation.utils.TaskeScreenshotUtilities:33] Full-page screenshot saved: D:\Automation\ui-tests\Screenshots\verifyButtonStatesOnTest4Page.png
+]]></system-out>
+    <system-err><![CDATA[log4j:WARN No appenders could be found for logger (freemarker.cache).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+Jul 05, 2025 5:45:43 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 138
+Jul 05, 2025 5:45:43 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 138
+]]></system-err>
+  </testcase>
+  <testcase name="testDropdownSelection" classname="com.krollresolver.automation.tests.Test3_DropdownTest" time="0.531">
+    <system-out><![CDATA[2025-07-05 17:45:44 [TestNG-test-Edge_Tests-2] INFO  [com.krollresolver.automation.base.BaseTest:73] Closing WebDriver session
+2025-07-05 17:45:44 [TestNG-test-Edge_Tests-1] INFO  [com.krollresolver.automation.utils.TaskeScreenshotUtilities:33] Full-page screenshot saved: D:\Automation\ui-tests\Screenshots\testDropdownSelection.png
+]]></system-out>
+  </testcase>
+  <testcase name="verifyGridDataAndCoordinates" classname="com.krollresolver.automation.tests.Test6_GridTest" time="0.493">
+    <system-out><![CDATA[2025-07-05 17:45:44 [TestNG-test-Edge_Tests-1] INFO  [com.krollresolver.automation.base.BaseTest:73] Closing WebDriver session
+2025-07-05 17:45:45 [TestNG-test-Edge_Tests-2] INFO  [com.krollresolver.automation.base.BaseTest:35] Setting up browser: chrome
+2025-07-05 17:45:45 [TestNG-test-Edge_Tests-1] INFO  [com.krollresolver.automation.base.BaseTest:35] Setting up browser: chrome
+2025-07-05 17:45:47 [TestNG-test-Edge_Tests-1] INFO  [com.krollresolver.automation.base.BaseTest:61] Navigated to: file:///D:/AutomationChallenge_2022/QE-index.html
+2025-07-05 17:45:47 [TestNG-test-Edge_Tests-1] INFO  [com.krollresolver.automation.listeners.TestListeners:47] Test started: verifyGridDataAndCoordinates
+2025-07-05 17:45:47 [TestNG-test-Edge_Tests-1] INFO  [com.krollresolver.automation.base.Page:23] MicrosoftEdge browser is ready.
+2025-07-05 17:45:47 [TestNG-test-Edge_Tests-1] INFO  [com.krollresolver.automation.tests.Test6_GridTest:17] Verifying the Home text
+2025-07-05 17:45:47 [TestNG-test-Edge_Tests-2] INFO  [com.krollresolver.automation.base.BaseTest:61] Navigated to: file:///D:/AutomationChallenge_2022/QE-index.html
+2025-07-05 17:45:47 [TestNG-test-Edge_Tests-2] INFO  [com.krollresolver.automation.listeners.TestListeners:47] Test started: verifyDelayedButtonBehavior
+2025-07-05 17:45:47 [TestNG-test-Edge_Tests-2] INFO  [com.krollresolver.automation.base.Page:23] MicrosoftEdge browser is ready.
+2025-07-05 17:45:47 [TestNG-test-Edge_Tests-1] INFO  [com.krollresolver.automation.base.BasePage:28] Read text from element By.xpath: //a[contains(text(),'Home ')]: Home
+(current)
+2025-07-05 17:45:47 [TestNG-test-Edge_Tests-2] INFO  [com.krollresolver.automation.tests.Test5_DelayedButtonTest:18] Verifying the Home text
+2025-07-05 17:45:47 [TestNG-test-Edge_Tests-1] INFO  [com.krollresolver.automation.pages.GridPage:30] Home Text: Home
+(current)
+2025-07-05 17:45:47 [TestNG-test-Edge_Tests-1] INFO  [com.krollresolver.automation.tests.Test6_GridTest:21] [PASS] Home text verified successfully: Home
+(current)
+2025-07-05 17:45:47 [TestNG-test-Edge_Tests-1] INFO  [com.krollresolver.automation.tests.Test6_GridTest:24] Navigating to the grid page
+2025-07-05 17:45:47 [TestNG-test-Edge_Tests-1] INFO  [com.krollresolver.automation.pages.GridPage:35] Retrieving header text from the grid page
+2025-07-05 17:45:47 [TestNG-test-Edge_Tests-2] INFO  [com.krollresolver.automation.base.BasePage:28] Read text from element By.xpath: //a[contains(text(),'Home ')]: Home
+(current)
+2025-07-05 17:45:47 [TestNG-test-Edge_Tests-2] INFO  [com.krollresolver.automation.pages.DelayedButtonPage:28] Home Text: Home
+(current)
+2025-07-05 17:45:47 [TestNG-test-Edge_Tests-1] INFO  [com.krollresolver.automation.base.BasePage:28] Read text from element By.xpath: //h1[text()='Test 6']: Test 6
+2025-07-05 17:45:47 [TestNG-test-Edge_Tests-2] INFO  [com.krollresolver.automation.tests.Test5_DelayedButtonTest:22] [PASS] Home text verified successfully: Home
+(current)
+2025-07-05 17:45:47 [TestNG-test-Edge_Tests-1] INFO  [com.krollresolver.automation.tests.Test6_GridTest:27] [PASS] Header text matches expected value: Test 6
+2025-07-05 17:45:47 [TestNG-test-Edge_Tests-2] INFO  [com.krollresolver.automation.tests.Test5_DelayedButtonTest:25] Navigating to Delayed Button page
+2025-07-05 17:45:47 [TestNG-test-Edge_Tests-1] INFO  [com.krollresolver.automation.tests.Test6_GridTest:30] Retrieving all rows from the grid
+2025-07-05 17:45:47 [TestNG-test-Edge_Tests-2] INFO  [com.krollresolver.automation.pages.DelayedButtonPage:33] Retrieving the Test 5 header text.
+2025-07-05 17:45:47 [TestNG-test-Edge_Tests-1] INFO  [com.krollresolver.automation.pages.GridPage:43] Retrieving all rows from the grid
+2025-07-05 17:45:47 [TestNG-test-Edge_Tests-1] INFO  [com.krollresolver.automation.tests.Test6_GridTest:32] Total rows retrieved: 3
+2025-07-05 17:45:47 [TestNG-test-Edge_Tests-1] INFO  [com.krollresolver.automation.tests.Test6_GridTest:34] [PASS] Rows retrieved successfully, count: 3
+2025-07-05 17:45:47 [TestNG-test-Edge_Tests-1] INFO  [com.krollresolver.automation.tests.Test6_GridTest:38] Finding coordinates of the value: Ventosanzap
+2025-07-05 17:45:47 [TestNG-test-Edge_Tests-1] INFO  [com.krollresolver.automation.pages.GridPage:48] Searching for cell coordinates containing value: Ventosanzap
+2025-07-05 17:45:47 [TestNG-test-Edge_Tests-1] INFO  [com.krollresolver.automation.pages.GridPage:43] Retrieving all rows from the grid
+2025-07-05 17:45:47 [TestNG-test-Edge_Tests-2] INFO  [com.krollresolver.automation.base.BasePage:28] Read text from element By.xpath: //div[@id='test-5-div']//h1: Test 5
+2025-07-05 17:45:47 [TestNG-test-Edge_Tests-2] INFO  [com.krollresolver.automation.tests.Test5_DelayedButtonTest:29] [PASS] Header text verified successfully: Test 5
+2025-07-05 17:45:47 [TestNG-test-Edge_Tests-2] INFO  [com.krollresolver.automation.tests.Test5_DelayedButtonTest:32] Verifying the info message before the button appears
+2025-07-05 17:45:47 [TestNG-test-Edge_Tests-2] INFO  [com.krollresolver.automation.pages.DelayedButtonPage:39] Retrieving the info message before the button appears.
+2025-07-05 17:45:47 [TestNG-test-Edge_Tests-2] INFO  [com.krollresolver.automation.base.BasePage:28] Read text from element By.xpath: //div[@id='test-5-div']//p[contains(text(),'A button will eventually show up here')]: A button will eventually show up here...
+2025-07-05 17:45:47 [TestNG-test-Edge_Tests-2] INFO  [com.krollresolver.automation.tests.Test5_DelayedButtonTest:37] [PASS] Info message verified successfully: A button will eventually show up here...
+2025-07-05 17:45:47 [TestNG-test-Edge_Tests-2] INFO  [com.krollresolver.automation.tests.Test5_DelayedButtonTest:40] Waiting for the delayed button to appear
+2025-07-05 17:45:47 [TestNG-test-Edge_Tests-2] INFO  [com.krollresolver.automation.pages.DelayedButtonPage:46] Checking if the delayed button is displayed.
+2025-07-05 17:45:47 [TestNG-test-Edge_Tests-1] INFO  [com.krollresolver.automation.utils.GetTableValues:20] Found 'Ventosanzap' at row 2, column 2
+2025-07-05 17:45:47 [TestNG-test-Edge_Tests-1] INFO  [com.krollresolver.automation.tests.Test6_GridTest:46] [PASS] Coordinates found successfully: Row 2, Column 2
+2025-07-05 17:45:48 [TestNG-test-Edge_Tests-1] INFO  [com.krollresolver.automation.utils.TaskeScreenshotUtilities:33] Full-page screenshot saved: D:\Automation\ui-tests\Screenshots\verifyGridDataAndCoordinates.png
+]]></system-out>
+    <system-err><![CDATA[Jul 05, 2025 5:45:46 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 138
+Jul 05, 2025 5:45:46 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 138
+]]></system-err>
+  </testcase>
+  <testcase name="verifyDelayedButtonBehavior" classname="com.krollresolver.automation.tests.Test5_DelayedButtonTest" time="9.798">
+    <system-out><![CDATA[2025-07-05 17:45:48 [TestNG-test-Edge_Tests-1] INFO  [com.krollresolver.automation.base.BaseTest:73] Closing WebDriver session
+2025-07-05 17:45:57 [TestNG-test-Edge_Tests-2] INFO  [com.krollresolver.automation.base.BasePage:53] Element By.xpath: //div[@id='test-5-div']//button is displayed: true
+2025-07-05 17:45:57 [TestNG-test-Edge_Tests-2] INFO  [com.krollresolver.automation.tests.Test5_DelayedButtonTest:42] [PASS] Delayed button is displayed successfully.
+2025-07-05 17:45:57 [TestNG-test-Edge_Tests-2] INFO  [com.krollresolver.automation.pages.DelayedButtonPage:51] Checking if the delayed button is enabled.
+2025-07-05 17:45:57 [TestNG-test-Edge_Tests-2] INFO  [com.krollresolver.automation.base.BasePage:155] Element [By.xpath: //div[@id='test-5-div']//button] is enabled (expected: enabled)
+2025-07-05 17:45:57 [TestNG-test-Edge_Tests-2] INFO  [com.krollresolver.automation.base.BasePage:159] [PASS] Element state matches expected: enabled
+2025-07-05 17:45:57 [TestNG-test-Edge_Tests-2] INFO  [com.krollresolver.automation.tests.Test5_DelayedButtonTest:45] [PASS] Delayed button is enabled successfully.
+2025-07-05 17:45:57 [TestNG-test-Edge_Tests-2] INFO  [com.krollresolver.automation.pages.DelayedButtonPage:61] Waiting for the delayed button to become visible and clickable.
+2025-07-05 17:45:57 [TestNG-test-Edge_Tests-2] INFO  [com.krollresolver.automation.base.BasePage:108] Waiting for element to be visible: By.xpath: //div[@id='test-5-div']//button
+2025-07-05 17:45:57 [TestNG-test-Edge_Tests-2] INFO  [com.krollresolver.automation.base.BasePage:142] Clicked element: By.xpath: //div[@id='test-5-div']//button
+2025-07-05 17:45:57 [TestNG-test-Edge_Tests-2] INFO  [com.krollresolver.automation.pages.DelayedButtonPage:64] [PASS] Delayed button clicked successfully.
+2025-07-05 17:45:57 [TestNG-test-Edge_Tests-2] INFO  [com.krollresolver.automation.pages.DelayedButtonPage:75] Checking if the success message is displayed.
+2025-07-05 17:45:57 [TestNG-test-Edge_Tests-2] INFO  [com.krollresolver.automation.base.BasePage:53] Element By.xpath: //div[@id='test-5-div']//div[contains(text(),'You clicked a button')] is displayed: true
+2025-07-05 17:45:57 [TestNG-test-Edge_Tests-2] INFO  [com.krollresolver.automation.pages.DelayedButtonPage:70] Retrieving the success message after clicking the button.
+2025-07-05 17:45:57 [TestNG-test-Edge_Tests-2] INFO  [com.krollresolver.automation.base.BasePage:28] Read text from element By.xpath: //div[@id='test-5-div']//div[contains(text(),'You clicked a button')]: You clicked a button!
+2025-07-05 17:45:57 [TestNG-test-Edge_Tests-2] INFO  [com.krollresolver.automation.tests.Test5_DelayedButtonTest:57] [PASS] Success message verified successfully: You clicked a button!
+2025-07-05 17:45:57 [TestNG-test-Edge_Tests-2] INFO  [com.krollresolver.automation.pages.DelayedButtonPage:56] Checking if the delayed button is disabled.
+2025-07-05 17:45:57 [TestNG-test-Edge_Tests-2] INFO  [com.krollresolver.automation.base.BasePage:155] Element [By.xpath: //div[@id='test-5-div']//button] is disabled (expected: disabled)
+2025-07-05 17:45:57 [TestNG-test-Edge_Tests-2] INFO  [com.krollresolver.automation.base.BasePage:159] [PASS] Element state matches expected: disabled
+2025-07-05 17:45:57 [TestNG-test-Edge_Tests-2] INFO  [com.krollresolver.automation.tests.Test5_DelayedButtonTest:62] [PASS] Delayed button is disabled after clicking as expected.
+2025-07-05 17:45:57 [TestNG-test-Edge_Tests-2] INFO  [com.krollresolver.automation.utils.TaskeScreenshotUtilities:33] Full-page screenshot saved: D:\Automation\ui-tests\Screenshots\verifyDelayedButtonBehavior.png
+]]></system-out>
+  </testcase>
+</testsuite>

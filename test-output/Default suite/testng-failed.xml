@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.krollresolver.automation.tests.Test1_LoginTest">
+        <methods>
+          <include name="verifyLoginFieldsArePresent"/>
+          <include name="verifyRequiredPasswordFieldValidationMessage"/>
+          <include name="setUpPage"/>
+          <include name="verifyInvalidEmailFormatValidation"/>
+          <include name="verifyFieldValidationMessages"/>
+          <include name="verifyInputFieldPlaceholders"/>
+          <include name="verifyRequiredEmailFieldValidationMessage"/>
+          <include name="initialize"/>
+          <include name="verifyPasswordFieldIsMasked"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.krollresolver.automation.tests.Test1_LoginTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

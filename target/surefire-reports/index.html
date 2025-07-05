@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-CrossBrowserSuite" class="navigator-link">
+              <span class="suite-name border-passed">CrossBrowserSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-CrossBrowserSuite" class="navigator-link ">
+                    <span>D:\Automation\ui-tests\CrossBrowser_Tests.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-CrossBrowserSuite" class="navigator-link ">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-CrossBrowserSuite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-CrossBrowserSuite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-CrossBrowserSuite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-CrossBrowserSuite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-CrossBrowserSuite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">14 methods,   14 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-CrossBrowserSuite" class="hide-methods passed suite-CrossBrowserSuite"> (hide)</a> <!-- hide-methods passed suite-CrossBrowserSuite -->
+                      <a href="#" panel-name="suite-CrossBrowserSuite" class="show-methods passed suite-CrossBrowserSuite"> (show)</a> <!-- show-methods passed suite-CrossBrowserSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-CrossBrowserSuite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CrossBrowserSuite" title="com.krollresolver.automation.tests.Test3_DropdownTest" class="method navigator-link" hash-for-method="testDropdownSelection">testDropdownSelection</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CrossBrowserSuite" title="com.krollresolver.automation.tests.Test2_ListGroupTest" class="method navigator-link" hash-for-method="testListGroupInTest2">testListGroupInTest2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CrossBrowserSuite" title="com.krollresolver.automation.tests.Test4_ButtonStateTest" class="method navigator-link" hash-for-method="verifyButtonStatesOnTest4Page">verifyButtonStatesOnTest4Page</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CrossBrowserSuite" title="com.krollresolver.automation.tests.Test5_DelayedButtonTest" class="method navigator-link" hash-for-method="verifyDelayedButtonBehavior">verifyDelayedButtonBehavior</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CrossBrowserSuite" title="com.krollresolver.automation.tests.Test1_LoginTest" class="method navigator-link" hash-for-method="verifyFieldValidationMessages(invalid-email, password, email, Please include an &#039;@&#039;)">verifyFieldValidationMessages(invalid-email, password, email, Please include an '@')</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CrossBrowserSuite" title="com.krollresolver.automation.tests.Test1_LoginTest" class="method navigator-link" hash-for-method="verifyFieldValidationMessages(test@testing.com, , password, Please fill out this field.)">verifyFieldValidationMessages(test@testing.com, , password, Please fill out this field.)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CrossBrowserSuite" title="com.krollresolver.automation.tests.Test1_LoginTest" class="method navigator-link" hash-for-method="verifyFieldValidationMessages(, password, email, Please fill out this field.)">verifyFieldValidationMessages(, password, email, Please fill out this field.)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CrossBrowserSuite" title="com.krollresolver.automation.tests.Test6_GridTest" class="method navigator-link" hash-for-method="verifyGridDataAndCoordinates">verifyGridDataAndCoordinates</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CrossBrowserSuite" title="com.krollresolver.automation.tests.Test1_LoginTest" class="method navigator-link" hash-for-method="verifyInputFieldPlaceholders">verifyInputFieldPlaceholders</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CrossBrowserSuite" title="com.krollresolver.automation.tests.Test1_LoginTest" class="method navigator-link" hash-for-method="verifyInvalidEmailFormatValidation">verifyInvalidEmailFormatValidation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CrossBrowserSuite" title="com.krollresolver.automation.tests.Test1_LoginTest" class="method navigator-link" hash-for-method="verifyLoginFieldsArePresent">verifyLoginFieldsArePresent</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CrossBrowserSuite" title="com.krollresolver.automation.tests.Test1_LoginTest" class="method navigator-link" hash-for-method="verifyPasswordFieldIsMasked">verifyPasswordFieldIsMasked</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CrossBrowserSuite" title="com.krollresolver.automation.tests.Test1_LoginTest" class="method navigator-link" hash-for-method="verifyRequiredEmailFieldValidationMessage">verifyRequiredEmailFieldValidationMessage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CrossBrowserSuite" title="com.krollresolver.automation.tests.Test1_LoginTest" class="method navigator-link" hash-for-method="verifyRequiredPasswordFieldValidationMessage">verifyRequiredPasswordFieldValidationMessage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-CrossBrowserSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-CrossBrowserSuite" class="panel CrossBrowserSuite">
+          <div class="suite-CrossBrowserSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.krollresolver.automation.tests.Test1_LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyFieldValidationMessages(invalid-email, password, email, Please include an &#039;@&#039;)">
+                  </a> <!-- verifyFieldValidationMessages(invalid-email, password, email, Please include an '@') -->
+                  <span class="method-name">verifyFieldValidationMessages</span>
+                  <span class="parameters">(invalid-email,password,email,Please include an '@')</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyFieldValidationMessages(test@testing.com, , password, Please fill out this field.)">
+                  </a> <!-- verifyFieldValidationMessages(test@testing.com, , password, Please fill out this field.) -->
+                  <span class="method-name">verifyFieldValidationMessages</span>
+                  <span class="parameters">(test@testing.com,,password,Please fill out this field.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyFieldValidationMessages(, password, email, Please fill out this field.)">
+                  </a> <!-- verifyFieldValidationMessages(, password, email, Please fill out this field.) -->
+                  <span class="method-name">verifyFieldValidationMessages</span>
+                  <span class="parameters">(,password,email,Please fill out this field.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyInputFieldPlaceholders">
+                  </a> <!-- verifyInputFieldPlaceholders -->
+                  <span class="method-name">verifyInputFieldPlaceholders</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyInvalidEmailFormatValidation">
+                  </a> <!-- verifyInvalidEmailFormatValidation -->
+                  <span class="method-name">verifyInvalidEmailFormatValidation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginFieldsArePresent">
+                  </a> <!-- verifyLoginFieldsArePresent -->
+                  <span class="method-name">verifyLoginFieldsArePresent</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyPasswordFieldIsMasked">
+                  </a> <!-- verifyPasswordFieldIsMasked -->
+                  <span class="method-name">verifyPasswordFieldIsMasked</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRequiredEmailFieldValidationMessage">
+                  </a> <!-- verifyRequiredEmailFieldValidationMessage -->
+                  <span class="method-name">verifyRequiredEmailFieldValidationMessage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRequiredPasswordFieldValidationMessage">
+                  </a> <!-- verifyRequiredPasswordFieldValidationMessage -->
+                  <span class="method-name">verifyRequiredPasswordFieldValidationMessage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-CrossBrowserSuite-class-passed -->
+          <div class="suite-CrossBrowserSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.krollresolver.automation.tests.Test3_DropdownTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDropdownSelection">
+                  </a> <!-- testDropdownSelection -->
+                  <span class="method-name">testDropdownSelection</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-CrossBrowserSuite-class-passed -->
+          <div class="suite-CrossBrowserSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.krollresolver.automation.tests.Test6_GridTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyGridDataAndCoordinates">
+                  </a> <!-- verifyGridDataAndCoordinates -->
+                  <span class="method-name">verifyGridDataAndCoordinates</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-CrossBrowserSuite-class-passed -->
+          <div class="suite-CrossBrowserSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.krollresolver.automation.tests.Test5_DelayedButtonTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyDelayedButtonBehavior">
+                  </a> <!-- verifyDelayedButtonBehavior -->
+                  <span class="method-name">verifyDelayedButtonBehavior</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-CrossBrowserSuite-class-passed -->
+          <div class="suite-CrossBrowserSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.krollresolver.automation.tests.Test2_ListGroupTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testListGroupInTest2">
+                  </a> <!-- testListGroupInTest2 -->
+                  <span class="method-name">testListGroupInTest2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-CrossBrowserSuite-class-passed -->
+          <div class="suite-CrossBrowserSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.krollresolver.automation.tests.Test4_ButtonStateTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyButtonStatesOnTest4Page">
+                  </a> <!-- verifyButtonStatesOnTest4Page -->
+                  <span class="method-name">verifyButtonStatesOnTest4Page</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-CrossBrowserSuite-class-passed -->
+        </div> <!-- panel CrossBrowserSuite -->
+        <div panel-name="test-xml-CrossBrowserSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\Automation\ui-tests\CrossBrowser_Tests.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite parallel=&quot;classes&quot; name=&quot;CrossBrowserSuite&quot; verbose=&quot;0&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.krollresolver.automation.listeners.MyTransformer&quot;/&gt;
+    &lt;listener class-name=&quot;com.krollresolver.automation.listeners.TestListeners&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;classes&quot; name=&quot;Chrome_Tests&quot; verbose=&quot;2&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.krollresolver.automation.tests.Test1_LoginTest&quot;/&gt;
+      &lt;class name=&quot;com.krollresolver.automation.tests.Test2_ListGroupTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Chrome_Tests --&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;classes&quot; name=&quot;Edge_Tests&quot; verbose=&quot;2&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;microsoftedge&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.krollresolver.automation.tests.Test3_DropdownTest&quot;/&gt;
+      &lt;class name=&quot;com.krollresolver.automation.tests.Test4_ButtonStateTest&quot;/&gt;
+      &lt;class name=&quot;com.krollresolver.automation.tests.Test5_DelayedButtonTest&quot;/&gt;
+      &lt;class name=&quot;com.krollresolver.automation.tests.Test6_GridTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Edge_Tests --&gt;
+&lt;/suite&gt; &lt;!-- CrossBrowserSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-CrossBrowserSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for CrossBrowserSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Chrome_Tests (2 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Edge_Tests (4 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-CrossBrowserSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for CrossBrowserSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-CrossBrowserSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for CrossBrowserSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_CrossBrowserSuite');
+function tableData_CrossBrowserSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(14);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'verifyDelayedButtonBehavior')
+data.setCell(0, 2, 'com.krollresolver.automation.tests.Test5_DelayedButtonTest')
+data.setCell(0, 3, 9641);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifyLoginFieldsArePresent')
+data.setCell(1, 2, 'com.krollresolver.automation.tests.Test1_LoginTest')
+data.setCell(1, 3, 1030);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testDropdownSelection')
+data.setCell(2, 2, 'com.krollresolver.automation.tests.Test3_DropdownTest')
+data.setCell(2, 3, 462);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyFieldValidationMessages')
+data.setCell(3, 2, 'com.krollresolver.automation.tests.Test1_LoginTest')
+data.setCell(3, 3, 439);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyGridDataAndCoordinates')
+data.setCell(4, 2, 'com.krollresolver.automation.tests.Test6_GridTest')
+data.setCell(4, 3, 408);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifyFieldValidationMessages')
+data.setCell(5, 2, 'com.krollresolver.automation.tests.Test1_LoginTest')
+data.setCell(5, 3, 348);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyRequiredPasswordFieldValidationMessage')
+data.setCell(6, 2, 'com.krollresolver.automation.tests.Test1_LoginTest')
+data.setCell(6, 3, 319);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verifyRequiredEmailFieldValidationMessage')
+data.setCell(7, 2, 'com.krollresolver.automation.tests.Test1_LoginTest')
+data.setCell(7, 3, 268);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verifyFieldValidationMessages')
+data.setCell(8, 2, 'com.krollresolver.automation.tests.Test1_LoginTest')
+data.setCell(8, 3, 258);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testListGroupInTest2')
+data.setCell(9, 2, 'com.krollresolver.automation.tests.Test2_ListGroupTest')
+data.setCell(9, 3, 257);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'verifyInvalidEmailFormatValidation')
+data.setCell(10, 2, 'com.krollresolver.automation.tests.Test1_LoginTest')
+data.setCell(10, 3, 234);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'verifyButtonStatesOnTest4Page')
+data.setCell(11, 2, 'com.krollresolver.automation.tests.Test4_ButtonStateTest')
+data.setCell(11, 3, 160);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'verifyInputFieldPlaceholders')
+data.setCell(12, 2, 'com.krollresolver.automation.tests.Test1_LoginTest')
+data.setCell(12, 3, 118);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'verifyPasswordFieldIsMasked')
+data.setCell(13, 2, 'com.krollresolver.automation.tests.Test1_LoginTest')
+data.setCell(13, 3, 65);
+window.suiteTableData['CrossBrowserSuite']= { tableData: data, tableDiv: 'times-div-CrossBrowserSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 14 seconds</span>
+              <div id="times-div-CrossBrowserSuite">
+              </div> <!-- times-div-CrossBrowserSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-CrossBrowserSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for CrossBrowserSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-CrossBrowserSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-CrossBrowserSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.krollresolver.automation.tests.Test1_LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initialize(chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.krollresolver.automation.tests.Test2_ListGroupTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initialize(chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.krollresolver.automation.tests.Test1_LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpPage</span>
+                <span class="method-start">1759 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginFieldsArePresent</span>
+                <span class="method-start">1776 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.krollresolver.automation.tests.Test2_ListGroupTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testListGroupInTest2</span>
+                <span class="method-start">2146 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">2545 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.krollresolver.automation.tests.Test1_LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpPage</span>
+                <span class="method-start">2997 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyInvalidEmailFormatValidation</span>
+                <span class="method-start">2999 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpPage</span>
+                <span class="method-start">3544 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyRequiredPasswordFieldValidationMessage</span>
+                <span class="method-start">3548 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpPage</span>
+                <span class="method-start">4080 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyRequiredEmailFieldValidationMessage</span>
+                <span class="method-start">4082 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpPage</span>
+                <span class="method-start">4493 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyPasswordFieldIsMasked</span>
+                <span class="method-start">4496 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpPage</span>
+                <span class="method-start">4705 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyInputFieldPlaceholders</span>
+                <span class="method-start">4707 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpPage</span>
+                <span class="method-start">4981 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyFieldValidationMessages(, password, email, Please fill out this field.)</span>
+                <span class="method-start">4982 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpPage</span>
+                <span class="method-start">5398 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyFieldValidationMessages(invalid-email, password, email, Please include an '@')</span>
+                <span class="method-start">5400 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpPage</span>
+                <span class="method-start">5974 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyFieldValidationMessages(test@testing.com, , password, Please fill out this field.)</span>
+                <span class="method-start">5974 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">6603 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.krollresolver.automation.tests.Test4_ButtonStateTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initialize(microsoftedge)</span>
+                <span class="method-start">7126 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.krollresolver.automation.tests.Test3_DropdownTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initialize(microsoftedge)</span>
+                <span class="method-start">7126 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testDropdownSelection</span>
+                <span class="method-start">8663 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.krollresolver.automation.tests.Test4_ButtonStateTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyButtonStatesOnTest4Page</span>
+                <span class="method-start">8857 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">9221 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.krollresolver.automation.tests.Test3_DropdownTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">9390 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.krollresolver.automation.tests.Test5_DelayedButtonTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initialize(microsoftedge)</span>
+                <span class="method-start">9446 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.krollresolver.automation.tests.Test6_GridTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initialize(microsoftedge)</span>
+                <span class="method-start">9628 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">verifyGridDataAndCoordinates</span>
+                <span class="method-start">11905 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.krollresolver.automation.tests.Test5_DelayedButtonTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyDelayedButtonBehavior</span>
+                <span class="method-start">12021 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.krollresolver.automation.tests.Test6_GridTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">12515 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.krollresolver.automation.tests.Test5_DelayedButtonTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">21820 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

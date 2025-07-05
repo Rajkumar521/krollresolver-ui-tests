@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="5" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="com.krollresolver.automation.tests.Test1_LoginTest">
+        <methods>
+          <include name="verifyLoginFieldsArePresent"/>
+          <include name="verifyRequiredPasswordFieldValidationMessage"/>
+          <include name="setUpPage"/>
+          <include name="verifyInvalidEmailFormatValidation"/>
+          <include name="verifyFieldValidationMessages"/>
+          <include name="verifyInputFieldPlaceholders"/>
+          <include name="initialize"/>
+          <include name="verifyRequiredEmailFieldValidationMessage"/>
+          <include name="verifyPasswordFieldIsMasked"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.krollresolver.automation.tests.Test1_LoginTest -->
+      <class name="com.krollresolver.automation.tests.Test5_DelayedButtonTest">
+        <methods>
+          <include name="initialize"/>
+          <include name="verifyDelayedButtonBehavior"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.krollresolver.automation.tests.Test5_DelayedButtonTest -->
+      <class name="com.krollresolver.automation.tests.Test2_ListGroupTest">
+        <methods>
+          <include name="testListGroupInTest2"/>
+          <include name="initialize"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.krollresolver.automation.tests.Test2_ListGroupTest -->
+      <class name="com.krollresolver.automation.tests.Test6_GridTest">
+        <methods>
+          <include name="verifyGridDataAndCoordinates"/>
+          <include name="initialize"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.krollresolver.automation.tests.Test6_GridTest -->
+      <class name="com.krollresolver.automation.tests.Test4_ButtonStateTest">
+        <methods>
+          <include name="verifyButtonStatesOnTest4Page"/>
+          <include name="initialize"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.krollresolver.automation.tests.Test4_ButtonStateTest -->
+      <class name="com.krollresolver.automation.tests.Test3_DropdownTest">
+        <methods>
+          <include name="testDropdownSelection"/>
+          <include name="initialize"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.krollresolver.automation.tests.Test3_DropdownTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

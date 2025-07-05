@@ -23,23 +23,21 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class BaseTest {
 
 	protected static final ThreadLocal<WebDriver> driverThread = new ThreadLocal<>();
-	protected static ReadDataConfig readConfig = new ReadDataConfig();
+	protected static ReadDataConfig readConfig = ReadDataConfig.getInstance();
 
 	// ---------- Test Lifecycle ----------
 
-	@Parameters("browser")
 	@BeforeClass
+	@Parameters("browser")
 	public void initialize(String browserparam) {
 		String browser = readConfig.getBrowserName();
 		String url = readConfig.getApplicationURL();
-		StepLogger.info("Setting up browser: " + browser);
 
 		try {
 			WebDriver driver;
 
 			if (browserparam.equalsIgnoreCase("chrome")) {
 				ChromeOptions options = getChromeOptions();
-
 				WebDriverManager.chromedriver().setup();
 				driver = new ChromeDriver(options);
 
@@ -48,9 +46,8 @@ public class BaseTest {
 				driver = new EdgeDriver();
 
 			} else {
-				String msg = "Browser not supported: " + browserparam;
-				StepLogger.fail(msg);
-				throw new RuntimeException(msg);
+				StepLogger.fail("Browser not supported: " + browserparam);
+				throw new RuntimeException("Browser not supported: " + browserparam);
 			}
 
 			driver.manage().window().maximize();
@@ -58,7 +55,6 @@ public class BaseTest {
 			driver.get(url);
 
 			driverThread.set(driver);
-			StepLogger.info("Navigated to: " + url);
 
 		} catch (Exception e) {
 			StepLogger.fail("WebDriver setup failed: " + e.getMessage());

@@ -7,6 +7,7 @@ import org.testng.ITestResult;
 
 import com.aventstack.extentreports.*;
 import com.krollresolver.automation.base.BaseTest;
+import com.krollresolver.automation.config.ReadDataConfig;
 import com.krollresolver.automation.reporting.ExtentReportGenerator;
 import com.krollresolver.automation.reporting.ExtentTestManager;
 import com.krollresolver.automation.utils.StepLogger;
@@ -19,25 +20,28 @@ public class TestListeners implements ITestListener {
 
 	@Override
 	public void onStart(ITestContext context) {
-		StepLogger.info("📦 Test execution started: " + context.getName());
+	    StepLogger.info("📦 Test execution started: " + context.getName());
 
-		// Set system info once per suite
-		String browser = context.getCurrentXmlTest().getParameter("browser");
-		String os = System.getProperty("os.name");
-		String javaVersion = System.getProperty("java.version");
+	    String browser = context.getCurrentXmlTest().getParameter("browser");
+	    String url = ReadDataConfig.getInstance().getApplicationURL();
+	    String os = System.getProperty("os.name");
+	    String javaVersion = System.getProperty("java.version");
 
-		extent.setSystemInfo("Browser", browser);
-		extent.setSystemInfo("OS", os);
-		extent.setSystemInfo("Java Version", javaVersion);
-		extent.setSystemInfo("SDET", "Raj");
-		extent.setSystemInfo("Environment", "QA");
+	    StepLogger.info("🔧 Launching tests on browser: " + browser);
+	    StepLogger.info("🌐 Target application URL: " + url);
+
+	    extent.setSystemInfo("Browser", browser);
+	    extent.setSystemInfo("OS", os);
+	    extent.setSystemInfo("Java Version", javaVersion);
+	    extent.setSystemInfo("SDET", "Raj");
+	    extent.setSystemInfo("Environment", "QA");
 	}
 
 	@Override
 	public void onTestStart(ITestResult result) {
 		String browser = result.getTestContext().getCurrentXmlTest().getParameter("browser");
 		String os = System.getProperty("os.name");
-
+		String url = ReadDataConfig.getInstance().getApplicationURL();
 		ExtentTest test = extent.createTest(result.getMethod().getMethodName() + " - " + browser).assignAuthor("Raj")
 				.assignCategory("Smoke-Test", os).assignDevice(browser);
 

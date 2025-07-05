@@ -20,7 +20,6 @@ public abstract class Page {
 
 		if (driver instanceof RemoteWebDriver) {
 			String browser = ((RemoteWebDriver) driver).getCapabilities().getBrowserName();
-			StepLogger.info(browser + " browser is ready.");
 		} else {
 			StepLogger.info("WebDriver initialized and decorated: " + driver.getClass().getSimpleName());
 		}

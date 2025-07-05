@@ -7,7 +7,6 @@ This is a scalable and modular UI automation framework built using:
 - ✅ TestNG for test orchestration and parallel execution
 - ✅ Maven for build and dependency management
 - ✅ ExtentReports for rich HTML reporting
-- ✅ Jenkins-ready structure for CI/CD integration
 
 ### 🔍 Features
 
